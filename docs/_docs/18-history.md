@@ -4,21 +4,9 @@ permalink: /docs/history/
 excerpt: "Change log of enhancements and bug fixes made to the theme."
 sidebar:
   nav: docs
-last_modified_at: 2018-12-04T14:19:34-05:00
+last_modified_at: 2018-11-26T08:14:18-05:00
 toc: true
 ---
-
-## Unreleased
-
-### Enhancements
-
-- Change remaining schema.org markup to `https`. [#1978](https://github.com/mmistakes/minimal-mistakes/pull/1978)
-- Update NPM dependencies.
-
-### Bug Fixes
-
-- Allow sidebar navigation with custom sidebar content. [#1986](https://github.com/mmistakes/minimal-mistakes/issues/1986)
-- Fix Google Custom Search JavaScript error when not using Instant Search. [#1983](https://github.com/mmistakes/minimal-mistakes/pull/1983)
 
 ## [4.14.1](https://github.com/mmistakes/minimal-mistakes/releases/tag/4.14.1)
 
