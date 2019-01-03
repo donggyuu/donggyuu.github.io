@@ -1,8 +1,7 @@
 ---
-layout: post
-title:  "first blog commit"
-date:   2018-12-22 17:22:00 -0600
-categories: first commit 
+layout: posts
+title:  "title"
+date: 2018-12-22 17:22:00 -0600
 ---
 
 
