@@ -1,13 +1,13 @@
 ---
 layout: page
-title: Speaking
-description: "Posts about talks I've given."
+title: essay
+description: "Posts about essay"
 ---
 
-<div id="speaking">
+<div id="essay">
   <ul class="posts">
     {% for post in site.posts %}
-      {% if post.category == "speaking" %}
+      {% if post.category == "essay" %}
       <li><a href="{{ post.url }}">{{ post.title }}</a><span> &raquo; {{ post.date | date: "%B %d, %Y" }}</span></li>
       {% endif %}
     {% endfor %}

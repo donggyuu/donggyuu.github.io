@@ -12,7 +12,7 @@ author: 'donggyu lee'
 disqus_shortname: donggyuu-github-io
 google_analytics: 
 
-gems:
+plugins:
   # https://help.github.com/articles/atom-rss-feeds-for-github-pages/
   - jekyll-gist
   - jekyll-sitemap
