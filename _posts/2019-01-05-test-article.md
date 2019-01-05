@@ -1,9 +1,9 @@
 ---
 layout: post
-title: "test article"
+title: "DNS cache problems"
 description: "An AMQP demo using RabbitMQ to send messages from Java to Node.js and then to a browser via Socket.io"
 category: articles
-tags: [java, test1, test2]
+tags: [java]
 comments: true
 ---
 
