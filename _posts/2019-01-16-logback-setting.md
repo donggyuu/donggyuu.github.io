@@ -1,37 +1,93 @@
 ---
 layout: post
-title: "how to set logback.xml"
+title: "setup logback"
 description: "Explanation loggin on JAVA and how to set"
 category: articles
 tags: [java, logging]
 comments: true
 ---
-**under constructor**
+*under construction*  
+*修正中*  
+*작성중*  
 
-<!-- 목차 만들기 -->
-# My Table of content
-- [Section 1](#id-section1)
-- [Section 2](#id-section2)
+<!-- contents -->
+- [what is logback](#id-section1)
+- [SLF4J and facade pattern](#id-section2)
+- [setup logback](#id-section3)
+
 
 <div id='id-section1'/>
-## Section 1
-<div id='id-section2'/>
-## Section 2
-
 
 # what is logback
-abcd
-* Java VM은 DNS lookup시 TTL(time-to-live)을 쓰지 않고, 한 번 lookup한 도메인 이름은 VM이 내려갈때까지 계속 캐싱을 함(DNS Spoofing을 막기위해)   
-* JVM의 버전에따라 다르지만, 1.6 이전의 경우는 Default로 Forever 1.6 이후 버전에 대해서는 30초 DNS Cache를 함 
-* SecurityManager가 존재 할 경우는 Application이 켜진동안 Cache를 만료시키지 않고, SecurityManager가 존재하지 않을경우, 30초간 Cache가 default    
+Logback is one of logging modules in Java. **Logback** and **Log4j2** are usually used.  
 
-## problems?  
-* 외부에 있는 서버의 IP가 변경되는 경우, 이전 IP 로 접속하는 문제가 발생할 수 있음(google의 reChPTCHA는 가끔 IP 를 변경한다고...)  
+<!--또한 log4j(2)를 기반으로 보완한 것이 logback이니 이걸 사용하는 것이 좋음.  
+왜 써야 하는지 이유는 아래 참고 작성  
+logback.xml즐찾 폴더 -> 사용해야 하는 이유 
+-->
+*official : https://logback.qos.ch/*
 
-## solution
-"2"의 networkaddress.cache.ttl가 주석처리되어있거나, "3"의 SecurityManager가 존재하지 않으면서 버전이 1.6 이후라면, default로 30초 DNS cache라고 생각하면 된다.  
+<div id='id-section2'/>
 
-#### 1. VM을 완전히 내렸다가 올림(재가동), WAS 의 경우 WAS shutdown/restart
+# facade pattern and SLF4J
+<!--facade pattern이랑 순서 바꾸셈. -->
+## facade pattern
+facade pattern의 일반적인 예   
+그림 첨부 ( official)  
+```
+전화거는 사진 -> 출처는 아래 링크. 
+```
+여러 문의를, 우리는 고객담당자에게 전화하면 된다.   
+창구 일원화 시스템. 
+
+상세하게 보고싶다면 ? https://sourcemaking.com/design_patterns/facade
+
+SLF4J로 보는 facade pattern.
+```
+내가 직접 그려 -> 전화거는 사진, cs는SLF4J, 아래 나머지는 로깅 모듈 
+```
+SLF4J만 있으면, 아래의 로깅 모듈에 상관없이 쓸 수 있음.   
+interface를 쓰는 이유와 동일 
+
+## SLF4J
+The Simple Logging Facade for Java (SLF4J) serves as a simple facade or abstraction for various logging frameworks (e.g. java.util.logging, logback, log4j) allowing the end user to plug in the desired logging framework at deployment time.  
+official : https://www.slf4j.org/index.html  
+즉, 이걸 쓰면 다양한 모듈을 갈아끼우는데 아무런 문제가 없다.  
+아래의 예제를 보자. 
+```
+기존의 코드. import 를 하고 있기 때문에 문제
+```
+
+```
+바뀐 코드. getClass로 모듈의 path만 지정해주면 된다. 문제 없음. 
+```
+
+```
+lombock을 사용하면 좀더 심플해짐
+https://taetaetae.github.io/2017/02/19/logback/
+```
+interface를 쓰는 이유와 동일  
+이것은 즉 아래 facade 패턴 ,창구 일원화 임.  
+
+<div id='id-section3'/>
+
+# setup logback
+
+*아래 링크 이해후 정리*
+
+https://docs.spring.io/spring-boot/docs/current/reference/html/boot-features-logging.html
+여기를 보면 모듈별 지원하는 xml이 있음.
+
+세팅 참고 url  
+https://jeong-pro.tistory.com/154
+http://wonwoo.ml/index.php/post/396  
+
+
+발전된, .xml말고 .yml로 세팅하는 방법.   
+https://supawer0728.github.io/2018/04/07/spring-boot-logging/  
+여기를 보면, spring-boot를 사용한다면 logback.xml은 더 사용할 필요 없고
+.yml에서 해결 가능. 
+++profile전략 -> 시간되면 업데이트. 
 
 
 <!--
@@ -66,22 +122,37 @@ facade 패턴으로 구현된 창구 일원화 시스템.
 lombock을 쓴다면 @slj4붙이고, log.info이런 식으로 쓴다.
 장점 : 모듈을 쉽게 교체 가능(전부 replace하지 않아도 된다)  
 
+
+
 1. what is logback?
 여러가지 로깅 모들이 있다 ( 자바 진영 ), a, b 등
-그 중 하나의 로깅 모듈.
+그 중 하나의 로깅 모듈. 
 ~한 이유로 많이 쓴다. 
 	1.
 	2.
 	3.
 
+2.SL4과 facadpattern 
+
 2. logback.xml setting
-세팅 방법.
+설정 파일의 경우 쓰는 모듈에 따라, spring-boot에서 설정 가능한 파일이 다르다. 
+이름만 다를 뿐 , 결론 세팅은 똑같음. 
+
+
+3. 세팅 방법.
 
  https://jeong-pro.tistory.com/154
  요걸 보면서 설정방법 연구. 
  
 ++모든 것에는 반드시 official한 링크를 붙일것. 
 
+http://wonwoo.ml/index.php/post/396
+요기 logback.xml에 대한 참고도 있음. 
 
 
+https://supawer0728.github.io/2018/04/07/spring-boot-logging/
+여기도 참고. 
+여기를 보면, spring-boot를 사용한다면 logback.xml은 더 사용할 필요 없고
+.yml에서 해결 가능. 
+++profile전략 -> 시간되면 업데이트. 
 -->
