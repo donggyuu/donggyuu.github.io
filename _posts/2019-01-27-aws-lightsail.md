@@ -1,9 +1,9 @@
 ---
 layout: post
-title: "setup logback"
-description: "Explanation loggin on JAVA and how to set"
+title: "setup lightsail for test server"
+description: "setup lightsail"
 category: articles
-tags: [java, logging]
+tags: [test, server]
 comments: true
 ---
 *under construction*  
@@ -91,68 +91,14 @@ https://supawer0728.github.io/2018/04/07/spring-boot-logging/
 
 
 <!--
-아래를 참고하여 md파일을 완성. 
-
-여러가지 로깅 모듈이 있음. 
-interface역할을 하는 @Slf4j이 있음. 
-그리고 엥간한건 다 SL4j 를 지원하기 때문에 
-우리가 쓸 때에는 @SL4j를 쓰거나 몇 줄 추가하면 끝.
-
-1. logback.xml 설정방법
-공식 : https://logback.qos.ch/
-쉬운 방법: https://taetaetae.github.io/2017/02/19/logback/
-
-여기도 참고
-https://jeong-pro.tistory.com/154
-스프링부트에서의 설정 방법. 
-
-2. lombock과 같이 사용할 때 @Slf4j는 뭐임?
-왜 SL4J를 사용하는가? 
-https://inyl.github.io/programming/2017/05/05/slf4j.html
-
-https://taetaetae.github.io/2017/02/19/logback/
-여기의 롬복 코드도 참고하렴. 
-
-0. SL4j는?
-자바 진영에서 로깅 처리를 하는 일련의 흐름
-(공식 문서에서 지원하는 그림)
-facade 패턴으로 구현된 창구 일원화 시스템.
-// http://jusungpark.tistory.com/23
-// 영어로 된 참고 사이트(가능하면 official찾기)
-lombock을 쓴다면 @slj4붙이고, log.info이런 식으로 쓴다.
-장점 : 모듈을 쉽게 교체 가능(전부 replace하지 않아도 된다)  
+각종 환경 테스트를 위해 docker ..등등 
+실제 간단한 server를 만들고, 하나 3.5달러 플랜이 생겼고 대중성 있으니,
+해보자.
+기업에서 많이 쓰는 centos
 
 
-
-1. what is logback?
-여러가지 로깅 모들이 있다 ( 자바 진영 ), a, b 등
-그 중 하나의 로깅 모듈. 
-~한 이유로 많이 쓴다. 
-	1.
-	2.
-	3.
-
-2.SL4과 facadpattern 
-
-2. logback.xml setting
-설정 파일의 경우 쓰는 모듈에 따라, spring-boot에서 설정 가능한 파일이 다르다. 
-이름만 다를 뿐 , 결론 세팅은 똑같음. 
+아래는 centos버전 확인 (리눅스 버전 확인)
+https://zetawiki.com/wiki/%EB%A6%AC%EB%88%85%EC%8A%A4_%EC%A2%85%EB%A5%98_%ED%99%95%EC%9D%B8,_%EB%A6%AC%EB%88%85%EC%8A%A4_%EB%B2%84%EC%A0%84_%ED%99%95%EC%9D%B8
 
 
-3. 세팅 방법.
-
- https://jeong-pro.tistory.com/154
- 요걸 보면서 설정방법 연구. 
- 
-++모든 것에는 반드시 official한 링크를 붙일것. 
-
-http://wonwoo.ml/index.php/post/396
-요기 logback.xml에 대한 참고도 있음. 
-
-
-https://supawer0728.github.io/2018/04/07/spring-boot-logging/
-여기도 참고. 
-여기를 보면, spring-boot를 사용한다면 logback.xml은 더 사용할 필요 없고
-.yml에서 해결 가능. 
-++profile전략 -> 시간되면 업데이트. 
 -->
