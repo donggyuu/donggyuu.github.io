@@ -9,6 +9,97 @@ comments: true
 *under construction*  
 *修正中*  
 *작성중*  
+젠킨스 세팅하기 -> aws에서..
+aws에서 centos를 설치하고 기본적인 아파치랑 톰캣 설정하는 것 적기. 
+
+http://blog.freezner.com/archives/1249
+여기를 참고해서 접속하면 됨.
+나의 경우 cenots -> muse-mac:aws muse$ ssh -i ./aws_keypair.pem centos@3.112.30.140
+
+
+jenkins를 설치하려고 접속했떠니 wget 치면  command not found
+-> have to install wget in centos like below
+yum install wget
+
+그런데 또 아래의 에러가...  
+Fail to set locale, defaulting to C
+아마  centos 청므 설치하면 이러는듯.
+https://www.cyberciti.biz/faq/failed-to-set-locale-defaulting-to-c-warning-message-on-centoslinux/
+여기를 참고해서 고치렴.   
+
+근데.. 기본적인 것들이 들어있어야 함
+java라던가...yum패키지..이런 것들..! 
+
+추가로, 
+[centos@ip-172-26-6-154 ~]$ sudo systemctl start jenkins
+[centos@ip-172-26-6-154 ~]$ sudo systemctl status jenkins
+로 jenkins가 active인지 확인.
+active (exited)  이면 문제가 있음. -> 딱히 문제가?
+--> 톰캣..같은 기본적인 http서버 등은 설치되어 있는 것을 전제로!! 
+아..기본 톰갯 등은 없어도 경량 서버가 자체적으로 깔려있어서 상관없음
+다만 aws를 쓰는 경우, aws내에서 방화벽 설정을 따로 해주어야 한다. 
+
+
+
+
+ligshtsail의 대시보드 화면에서, networking에서 static ip를 발급받고  
+그 이후에 networking page에서 권한 설정을 해 주어야 함.
+
+톰캣은 8080이라서 잘 들어가지는데 젠킨스는 왜 안됨? 
+그리고 jenkkins_port로 해햐지
+jenkins https port를 같이 수정하면 안되는 경우가 있어..
+하라는 대로 하기.
+
+sudo cat 경로 
+잘 되었는데 또 안되면 jenkins restart 명령어를 쳐본다. 
+
+an Error occured 화면이 뜨는 경우
+https://issues.jenkins-ci.org/browse/JENKINS-45388
+위의 페이지의 에러가 뜨는 경우, 
+pw를 새로 편집해 줄 필요가 있음.
+아래처럼! 테쥰에따라서 진행한다. 
+```
+The symptom can be accomodated by modifying the contents of /var/lib/jenkins/secrets/initialAdminPassword before first contact with a browser.
+
+For example, change:
+
+b0dc273fe0b745708ec1cb91f88eda81
+to
+
+passwd:b0dc273fe0b745708ec1cb91f88eda81
+Then set up Jenkins:
+
+Direct browser to <appliance>:8080
+Login as user "admin" with the original contents of initialAdminPassword
+click [install suggested plugins]
+click [continue as admin]
+click [start using Jenkins] - The "cannot connect" error appears
+click [retry] - The "cannot connect" error is resolved
+```
+-->앞에 passwd붙인 다음,
+해당 포트로 들어가서 로그인은 admin / passwd:의 뒤의 것, 즉 passwd:를 뺀 원래 암호를 입력하면 됩니다. 
+amdin으로 로그인을 하면, 
+위의 링크는 install suggested plugins이지만, 그거 누르면 또 에ㅓㄹ뜸
+
+http://www.teknotrait.com/blog/article/Making-Parameterized-Build-On-Jenkins
+여기에 따라서, select plugin을 누르고 위의 링크에 맞는 플러그인을 선택후 설치한다. 
+
+중간에 에러 뜨면,,다시 젠킨스 재시작 하고 다시 서버 접속해서 반복..
+걍 인터넷 속도 문제인거같기도.. 
+다시 반복해서 restart해서 접속해서 들어가면, resume버튼 있을것. 
+
+
+중간에 에러 뜨고 서버에 접속이 안되는 것은
+서버 상의 메모리 문제일 수도 있음
+
+systemctl stop firewalld.service
+로 한 후 젠킨스  restart해보면 됨.
+https://stackoverflow.com/questions/44858275/jenkins-refused-to-connect-on-port-8080
+
+
+https://zetawiki.com/wiki/CentOS_JDK_%EC%84%A4%EC%B9%98
+센토스 자바설치 
+와.. 램이 512메가이면 설치에 에러가 뜨네.. 힙영역 메모리 꽉차서..ㅅㅂ..
 
 <!-- contents -->
 - [what is logback](#id-section1)
