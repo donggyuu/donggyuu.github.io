@@ -20,3 +20,6 @@ plugins:
 sass:
     sass_dir: _sass
     style: :compressed
+
+# for analytics
+g-analytics: UA-139523733-1
