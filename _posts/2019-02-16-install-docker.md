@@ -1,20 +1,27 @@
 ---
 layout: post
-title: "setup lightsail for test server"
-description: "setup lightsail"
+title: "docker - setup and basic commands"
+description: "docker installation and basic command lines"
 category: articles
-tags: [test, server]
+tags: [docker]
 comments: true
 ---
 
+# what is doccker - dockerとは
+
+
+
 이미지 가져와서 쓰는 것 까지는 했음.
 내가 이미지 만드는 방법을 나중에 포스팅을 ㅗ알아야!! 
+// 개인적으로 이미지를 만들고, 그것을 배포하고 팀원들이 가져다 쓰는 방법. 
 
 TODO : docker 설치, jenkins설치
 -->왜 jenkins따로 설치 안하는가 ? 이유 설명
 
+**도커와 젠킨스에 대한 간단한 설명..ㅠ
+직접 이미지를 만들 수 는 없으니까,, 도커 파일을 작성하는 방법에 대해서 포
 
-
+----- 윈도우즈에서 인스토럴 하는 방법을 추가.
 https://docs.docker.com/install/linux/docker-ce/centos/
 공식 doc
 
@@ -160,3 +167,35 @@ docker-compose restart jenkins
 
 여기까지 하고 jenkins_home에 들어가보면, 
 젠킨스 실행에 관련된 모든파일이 저장되어 ㅣㅆ는 것을 볼 ㅅ ㅜ있음. 
+
+이게, 도커 파일을 만들면, 어떤 기존의 이미지를 기준으로 새로운 이미지를 만들 수 있구나.
+ㄱㅡ럼 docker-compose랑은 어떤 
+
+
+도커의 기본적인 명령어
+
+이게, 도커파일은 이미지 만드는 파일,
+docker-compose는 그 만들어진 이미지를 실행한  container에 대한 설정 파일. 
+
+서비스는 하나인데 사용해야 하는 컨테이너가 여러 개인 경우 매번 docker build, docker run, docker stop, docker rm, docker restart 등의 명령어를 사용하는 것은 말도 못하게 번거롭다. 필자는 바로 쉘 스크립트로 해당 명령어들을 작성해서 보관하기 시작했는데, 컨테이너 개수가 늘어나면서 관리할 쉘 스크립트도 덩달아서 늘어나고, 스크립트 내에서 사용하는 환경 변수들에 대한 처리 문제도 덩달아 발생하였다. docker-compose를 사용하면 build부터 컨테이너를 띄우는 순서까지 모두 결정할 수 있으며 docker-compose up -d 라는 명령어 한 줄이면 docker-compose.yml에 설정된 모든 컨테이너를 한 번에 바로 띄울 수 있다.
+
+
+
+이거네.
+https://blog.osg.kr/archives/186
+
+
+젠킨스로 도커 이미지 자동 배포https://kycfeel.github.io/2017/10/09/Jenkins%EB%A1%9C-Docker-%EC%9D%B4%EB%AF%B8%EC%A7%80-%EB%B0%B0%ED%8F%AC-%EC%9E%90%EB%8F%99%ED%99%94%ED%95%98%EA%B8%B0/하기
+
+여기를 참고해서 작성.
+이걸 기반으로...다른 팀에서는 어떻게 하고 있는지 물어보기.. 사용ㅇ현장에서는 어떻게 하고 있는가될 
+
+// 기본 -> 추후 확장ㄷ
+
+this is another 
+
+
+ㅇ제 얼추 알았으으나, 실제 어느 경루오세ㅓ 어떻게 배포하는지도 알기. 
+
+
+중간에,compose 파일 작성하는 부분은 나중에 뒤로 뺴끼.
