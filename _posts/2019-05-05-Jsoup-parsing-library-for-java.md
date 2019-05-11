@@ -2,11 +2,21 @@
 layout: post
 title: "Jsoup - Parsing Library for Java"
 description: "How to set and use Jsuop for parsing site of HTML"
-category: essay
+category: articles
 tags: [Java, Parsing]
 comments: true
 ---
-# Jsoup - Parsing Library for Java
+<!-- contents -->
+- [What is Jsoup](#what_is_jsoup)
+- [Basic setting](#basic_setting)
+  - [Import library](#import_library)
+  - [Set user agent](#set_user_agent)
+  - [Set connection values](#set_connection_values)
+- [Sample Usages](#sample_usages)
+  - [Get values using class](#get_values_using_class)
+  - [Get values from duplicated tags](#get_values_from_duplicated_tags)
+ 
+<div id='what_is_jsoup'/>
 
 # What is Jsoup?
 
@@ -14,7 +24,11 @@ HTML Parser for Java. Can get some parts you want from HTML files.
 
 details : [https://jsoup.org/](https://jsoup.org/)
 
+<div id='basic_setting'/>
+
 # Basic setting
+
+<div id='import_library'/>
 
 ## Import library
 
@@ -27,7 +41,9 @@ Set dependencies as below If you use "gradle" as build tool.
       ...
     }
 
-git: [https://github.com/donggyuu/spring-basic/blob/master/crawling-jsoup/build.gradle#L29](https://github.com/donggyuu/spring-basic/blob/master/crawling-jsoup/build.gradle#L29)
+[https://github.com/donggyuu/spring-basic/blob/master/crawling-jsoup/build.gradle#L29](https://github.com/donggyuu/spring-basic/blob/master/crawling-jsoup/build.gradle#L29)
+
+<div id='set_user_agent'/>
 
 ## Set user agent
 
@@ -35,11 +51,13 @@ Set user agent which checking user's browsers. If value of user agent contains m
 
     String USER_AGENT = "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_9_2) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/33.0.1750.152 Safari/537.36";
 
-git: [https://github.com/donggyuu/spring-basic/blob/master/crawling-jsoup/src/main/java/donggyu/lee/CrawlingMain.java#L17](https://github.com/donggyuu/spring-basic/blob/master/crawling-jsoup/src/main/java/donggyu/lee/CrawlingMain.java#L17)
+[https://github.com/donggyuu/spring-basic/blob/master/crawling-jsoup/src/main/java/donggyu/lee/CrawlingMain.java#L17](https://github.com/donggyuu/spring-basic/blob/master/crawling-jsoup/src/main/java/donggyu/lee/CrawlingMain.java#L17)
 
 Can get value of user agent by google as below.
 
 ![](get_user_agent-649dc547-6c48-4438-a6c1-80283d42db3c.png)
+
+<div id='set_connection_values'/>
 
 ## Set connection values
 
@@ -60,9 +78,13 @@ Set connectURL, Connection then get Document values as below. Document values wi
     // Will parsing from this document value
     Document document = conn.get();
 
-git: [https://github.com/donggyuu/spring-basic/blob/master/crawling-jsoup/src/main/java/donggyu/lee/CrawlingMain.java#L21](https://github.com/donggyuu/spring-basic/blob/master/crawling-jsoup/src/main/java/donggyu/lee/CrawlingMain.java#L21)
+[https://github.com/donggyuu/spring-basic/blob/master/crawling-jsoup/src/main/java/donggyu/lee/CrawlingMain.java#L21](https://github.com/donggyuu/spring-basic/blob/master/crawling-jsoup/src/main/java/donggyu/lee/CrawlingMain.java#L21)
+
+<div id='sample_usages'/>
 
 # Sample Usages
+
+<div id='get_values_using_class'/>
 
 ## Get values using class
 
@@ -76,7 +98,9 @@ To get "*Sample Parsing Data*" from "*<p class="list_title ellipsis">Sample Pars
             System.out.println(data);
     }
 
-git: [https://github.com/donggyuu/spring-basic/blob/master/crawling-jsoup/src/main/java/donggyu/lee/CrawlingMain.java#L41](https://github.com/donggyuu/spring-basic/blob/master/crawling-jsoup/src/main/java/donggyu/lee/CrawlingMain.java#L41)
+[https://github.com/donggyuu/spring-basic/blob/master/crawling-jsoup/src/main/java/donggyu/lee/CrawlingMain.java#L41](https://github.com/donggyuu/spring-basic/blob/master/crawling-jsoup/src/main/java/donggyu/lee/CrawlingMain.java#L41)
+
+<div id='get_values_from_duplicated_tags'/>
 
 ## Get values from duplicated tags
 
@@ -106,4 +130,4 @@ To get href values from duplicated tags, filter values by using tags one by one 
             System.out.println(li.get(i).attr("abs:href"));
         }
 
-git: [https://github.com/donggyuu/spring-basic/blob/master/crawling-jsoup/src/main/java/donggyu/lee/CrawlingMain.java#L54](https://github.com/donggyuu/spring-basic/blob/master/crawling-jsoup/src/main/java/donggyu/lee/CrawlingMain.java#L54)
+[https://github.com/donggyuu/spring-basic/blob/master/crawling-jsoup/src/main/java/donggyu/lee/CrawlingMain.java#L54](https://github.com/donggyuu/spring-basic/blob/master/crawling-jsoup/src/main/java/donggyu/lee/CrawlingMain.java#L54)
