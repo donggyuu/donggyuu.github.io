@@ -1,4 +1,5 @@
 ---
+published : false
 layout: post
 title: "basic commandline"
 description: "summarize basic commandline"

@@ -1,4 +1,5 @@
 ---
+published : false
 layout: post
 title: "setup lightsail for test server"
 description: "setup lightsail"
