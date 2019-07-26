@@ -6,6 +6,9 @@ category: articles
 tags: [Java, Parsing]
 comments: true
 ---
+
+---  
+
 <!-- contents -->
 - [What is Jsoup](#what_is_jsoup)
 - [Basic setting](#basic_setting)
@@ -16,7 +19,7 @@ comments: true
   - [Get values using class](#get_values_using_class)
   - [Get values from duplicated tags](#get_values_from_duplicated_tags)
 
-
+---  
 Can check source codes from here :   
 [github.com/donggyuu/spring-basic/crawling-jsoup](https://github.com/donggyuu/spring-basic/blob/master/crawling-jsoup/src/main/java/donggyu/lee/CrawlingMain.java)
 
@@ -29,8 +32,10 @@ official : [https://jsoup.org/](https://jsoup.org/)
 
 <div id='basic_setting'/>
 
-# Basic setting
+---  
 
+# Basic setting
+---  
 <div id='import_library'/>
 
 ## Import library
@@ -48,6 +53,8 @@ dependencies {
 
 <div id='set_user_agent'/>
 
+---  
+
 ## Set user agent
 
 Set user agent which checking user's browsers. If value of user agent contains mobile's ones, then mobile page will be redirected if that site has mobile pages.
@@ -61,6 +68,8 @@ Can get value of user agent by google as below.
 
 
 <div id='set_connection_values'/>
+
+---  
 
 ## Set connection values
 
@@ -84,7 +93,11 @@ Connection conn = Jsoup
 
 <div id='sample_usages'/>
 
+---  
+
 # Sample Usages
+
+---  
 
 <div id='get_values_using_class'/>
 
@@ -104,6 +117,8 @@ System.out.println("=====print titles=====");
 
 
 <div id='get_values_from_duplicated_tags'/>
+
+---  
 
 ## Get values from duplicated tags
 
