@@ -56,7 +56,8 @@ String USER_AGENT = "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_9_2) AppleWebKit/
 ```
 Can get value of user agent by google as below.
 
-![Jsoup_user_agent](/_assets/img/jsoup_user_agent_20190725.png)
+![search_user_agent]({{ "/assets/img/jsoup_user_agent_20190725.png" | absolute_url }})
+
 
 
 <div id='set_connection_values'/>
