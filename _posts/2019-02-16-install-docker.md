@@ -1,6 +1,7 @@
 ---
+published : false
 layout: post
-title: "docker - setup and basic commands"
+title: "Install Docker for Mac"
 description: "docker installation and basic command lines"
 category: articles
 tags: [docker]
