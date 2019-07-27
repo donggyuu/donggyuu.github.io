@@ -13,7 +13,7 @@ comments: true
 - [문제점](#problems)
 - [해결책](#method)
   - [VM을 restart](#vm restart)
-  - [java.security파일 수정](#java.security)
+  - [java.security 수정](#java.security)
   - [SecurityManager 수정](#SecurityManager)
 - [참고](#reference)
 
