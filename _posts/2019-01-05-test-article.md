@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "DNS cache problems"
+title: "DNS Cache Problems"
 description: "explanation about DNS cache problems"
 category: articles
 tags: [Java, DNS]
