@@ -29,7 +29,8 @@ comments: true
 - Official : [https://jsoup.org/](https://jsoup.org/)
 - My git : [github.com/donggyuu/spring-basic/crawling-jsoup](https://github.com/donggyuu/spring-basic/blob/master/crawling-jsoup/src/main/java/donggyu/lee/CrawlingMain.java)
 
-</br>
+<br/>
+
 ---  
 
 <div id='basic_setting'/>
@@ -51,7 +52,7 @@ dependencies {
 }
 ```
 
-</br>
+<br/>
 <div id='set_user_agent'/>
 
 ## Set user agent
@@ -60,11 +61,12 @@ Set user agent which checking user's browsers. If value of user agent contains m
 ```java
 String USER_AGENT = "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_9_2) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/33.0.1750.152 Safari/537.36";
 ```
+<br/>
 Can get value of user agent by google as below.
 
 ![search_user_agent]({{ "/assets/img/jsoup_user_agent_20190725.png" | absolute_url }})
 
-</br>
+<br/>
 
 <div id='set_connection_values'/>
 
@@ -89,7 +91,8 @@ Connection conn = Jsoup
 ```
 
 
-</br>
+<br/>
+
 ---
 
 <div id='sample_usages'/>
@@ -113,7 +116,7 @@ System.out.println("=====print titles=====");
     }
 ```
 
-</br>
+<br/>
 
 <div id='get_values_from_duplicated_tags'/>
 
@@ -133,7 +136,7 @@ Here is HTML codes of duplicated many tags and want to get href values.
   </ol>
 </div>
 ```
-</br>
+<br/>
 To get href values from duplicated tags, filter values by using tags one by one as below.
 
 ```java
