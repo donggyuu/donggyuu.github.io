@@ -1,3 +1,8 @@
+2019-09-21  
+This repository will be replaced by blog(https://donggyulee.blogspot.com/)
+
+-----
+
 # Jekyll source for blog.lanyonm.org
 Read more here: [GitHub User Pages](https://help.github.com/articles/user-organization-and-project-pages).
 
