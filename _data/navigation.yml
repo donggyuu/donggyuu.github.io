@@ -1,0 +1,6 @@
+n links
+main:
+  - title: "About"
+    url: /about/
+  - title: "Tags"
+    url: /tags/
