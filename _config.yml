@@ -16,7 +16,7 @@ minimal_mistakes_skin    : "default" # "air", "aqua", "contrast", "dark", "dirt"
 
 # Site Settings
 locale                   : "en-US"
-title                    : "donggyu lee - blog"
+title                    : "Development Blog"
 title_separator          : "-"
 subtitle                 : # site tagline that appears below site title in masthead
 name                     : "donggyu lee"
@@ -106,18 +106,18 @@ analytics:
 
 # Site Author
 author:
-  name             : "취미코딩하는 개발자"
+  name             : "Donggyu Lee"
   avatar           : "/assets/images/bio-photo-keyboard.jpg"
-  bio              : "회사에서는 월급 받고 집에서는 취미로 코딩하는 개발자"
-  location         : "South Korea"
-  email            :
+  bio              : "Backend Engineer"
+  location         : "Tokyo"
+  email            : 
   links:
-    - label: "Email"
+    - label: "donggyu.rhee@gmail.com"
       icon: "fas fa-fw fa-envelope-square"
-      url: mailto:devinlifeidea@gmail.com
+      url: donggyu.rhee@gmail.com
     - label: "Website"
       icon: "fas fa-fw fa-link"
-      url: "https://devinlife.com"
+      # url: "https://mywebsite.com/"
     - label: "Twitter"
       icon: "fab fa-fw fa-twitter-square"
       # url: "https://twitter.com/"
