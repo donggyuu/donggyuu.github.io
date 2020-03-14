@@ -126,7 +126,7 @@ author:
       # url: "https://facebook.com/"
     - label: "GitHub"
       icon: "fab fa-fw fa-github"
-      url: "https://github.com/devinlife"
+      url: "https://github.com/donggyu"
     - label: "Instagram"
       icon: "fab fa-fw fa-instagram"
       # url: "https://instagram.com/"
@@ -142,7 +142,7 @@ footer:
       # url:
     - label: "GitHub"
       icon: "fab fa-fw fa-github"
-      url: "https://github.com/devinlife"
+      url: "https://github.com/donggyu"
     - label: "GitLab"
       icon: "fab fa-fw fa-gitlab"
       # url:
@@ -292,7 +292,8 @@ defaults:
       comments: true
       share: true
       related: true
-      toc_ads: true
+      # ads for side bar
+      # toc_ads: true
       toc_sticky: true
 
   # _pages

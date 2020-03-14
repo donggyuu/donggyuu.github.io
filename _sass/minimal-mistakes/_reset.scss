@@ -15,13 +15,13 @@ html {
   }
 
   @include breakpoint($large) {
-    /* devinlife : large 페이지 일때 폰트 사이즈 축소 20px->18px */
+    /* donggyu : large 페이지 일때 폰트 사이즈 축소 20px->18px */
     /* font-size: 20px; */
     font-size: 18px;
   }
 
   @include breakpoint($x-large) {
-    /* devinlife : x-large 페이지 일때 폰트 사이즈 축소 20px->18px */
+    /* donggyu : x-large 페이지 일때 폰트 사이즈 축소 20px->18px */
     /* font-size: 20px; */
     font-size: 18px;
   }

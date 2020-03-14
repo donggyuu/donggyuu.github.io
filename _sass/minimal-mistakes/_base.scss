@@ -76,7 +76,7 @@ ins {
   }
 }
 
-/* devinlife comment: 구글 애드 센스의 아래 바 레이아웃 삭제
+/* donggyu comment: 구글 애드 센스의 아래 바 레이아웃 삭제
  https://github.com/mmistakes/minimal-mistakes/issues/306 */
 ins.adsbygoogle {
   border-bottom: none !important;
@@ -137,7 +137,7 @@ blockquote {
 /* links */
 
 a {
-  /* devinlife : a link 하이퍼링크 밑줄 없애기 */
+  /* donggyu : a link 하이퍼링크 밑줄 없애기 */
   text-decoration: none;
   &:focus {
     @extend %tab-focus;
