@@ -20,7 +20,9 @@ API request using RestTemplate in Spring is not always successful for various ex
 | ResourceAccessException | O |
 | HTTPServerErrorException | O |
 | HTTPClientErrorException | O/X |
-| UnknownHTTPStatusCodeException | X |
+| UnknownHTTPStatusCodeException | X |  
+
+<br>
 
 
 # Use @retryable for Retry
@@ -31,11 +33,13 @@ Can use @retryable for retry in Spring. It is ok to code oneself by Java but usi
 public void updateDB() throws ResourceAccessException, HTTPServerErrorException {
   post("update_data");
 }
-``` 
-usage : [https://qiita.com/SotaOishi/items/f19d50794e3fabad5e95](https://qiita.com/SotaOishi/items/f19d50794e3fabad5e95)
+```   
+[→Spring-Retryでリトライ処理の実装](https://qiita.com/SotaOishi/items/f19d50794e3fabad5e95)
 
 
-# Exception List when using RestTemplate
+<br>
+
+# Exception List in RestTemplate
 
 Using RestTemplate in Spring can throw RestClientException. And RestClientException has some child exceptions. So...
 
@@ -48,14 +52,19 @@ Have to consider belows when retry
 
 ![when-we-sould-retry-in-rest-template_RestException](/assets/images/when-we-sould-retry-in-rest-template_RestException.png)
 
-refer to : [https://qiita.com/shotana/items/88b120432e694c9b63f6](https://qiita.com/shotana/items/88b120432e694c9b63f6)
 
-# ResourceAccessException
-Had better retry when ResourceAccessException occur for it thrown when an I/O error occurs like time out. Many practices do retry this exception occurs.
+[→RestTemplateが投げる例外クラスまとめ](https://qiita.com/shotana/items/88b120432e694c9b63f6)
 
-refer to : [https://docs.spring.io/spring/docs/current/javadoc-api/org/springframework/web/client/ResourceAccessException.html](https://docs.spring.io/spring/docs/current/javadoc-api/org/springframework/web/client/ResourceAccessException.html)
 
-# HTTPServerErrorException
+<br>
+
+# For ResourceAccessException
+Had better retry when ResourceAccessException occur for it thrown when an I/O error occurs like time out. Many practices do retry this exception occurs.  
+[→ spring-docs-ResourceAccessException](https://docs.spring.io/spring/docs/current/javadoc-api/org/springframework/web/client/ResourceAccessException.html)
+
+<br>
+
+# For HTTPServerErrorException
 
 Had better retry when HTTPServerErrorException occur for it thrown when an HTTP 5xx is received.
 
@@ -67,16 +76,17 @@ Here are 5xx Responses and had better retry when first request failed except 505
 | 503 | Service Unavailable | server is temporarily unable to handle the request for being overloaded or down for maintenance |
 | 504 | Gateway Timeout | one server did not receive a timely response from another server |
 | 505 | HTTP Version Not Supported | server can emit if it doesn't support the major HTTP version the client used to make the request |
+[→spring-docs-HttpServerErrorException](https://docs.spring.io/spring/docs/current/javadoc-api/org/springframework/web/client/HttpServerErrorException.html)
 
-refer to : [https://docs.spring.io/spring/docs/current/javadoc-api/org/springframework/web/client/HttpServerErrorException.html](https://docs.spring.io/spring/docs/current/javadoc-api/org/springframework/web/client/HttpServerErrorException.html)
+<br>
 
-# HTTPClientErrorException
+# For HTTPClientErrorException
 
-## Not retry, add validation
+## not retry, add validation
 
 Had better NOT retry when HTTPClientErrorException occur for it thrown when an HTTP 4xx is received. 4xx is caused by wrong request from client. Unless client fix wrong request, same 4xx will return even though how many request you send.
 
-Here are 4xx Responses.
+**Here are 4xx Responses**
 
 | Code | Status | Note |
 |:--------|:--------|:--------|
@@ -84,11 +94,10 @@ Here are 4xx Responses.
 | 401 | Unauthorized | request has not been applied because it lacks valid authentication credentials for the target resource |
 | 403 | Forbidden | access to the requested (valid) URL by the client is Forbidden for some reason |
 | 404 | Not Found | browser was able to communicate with a given server, but the server could not find what was requested |
-| 405 | Method Not Allowed | server can emit if it doesn't support HTTP method is simply not supported |
+| 405 | Method Not Allowed | server can emit if it doesn't support HTTP method is simply not supported |  
+<br>
 
 About HTTP 400, can prevent it by adding validation to request parameter.
-
-
 
 ```java
 ApiRequestParams params = new ApiRequestParams();
@@ -96,12 +105,16 @@ BindingResult bindingResult = new DataBinder(params).getBindingResult();
 
 // call api
 ``` 
-refer to : https://hacknote.jp/archives/24535/
+[→spring-docs-HttpServerErrorException](https://hacknote.jp/archives/24535/)
 
-## May ok to retry when 4xx but...
+<br>
+
+## may ok to retry when 4xx but...
 
 Except HTTP 400, other 4xx errors are hardly happen. HTTP 400 itself will not happen if you add validation to request parameter. So retry when HTTPClientErrorException may ok in many cases but have to consider one more when doing like this.  
 
-# UnknownHTTPStatusCodeException
+<br>
+
+# For UnknownHTTPStatusCodeException
 
 Had better NOT retry when UnknownHTTPStatusCodeException occur for it thrown when an unknown (or custom) HTTP status code is received. Have to check the cause of this exception before you try to retry.
