@@ -34,7 +34,7 @@ public void updateDB() throws ResourceAccessException, HTTPServerErrorException 
   post("update_data");
 }
 ```   
-[→Spring-Retryでリトライ処理の実装](https://qiita.com/SotaOishi/items/f19d50794e3fabad5e95)
+[Spring-Retryでリトライ処理の実装](https://qiita.com/SotaOishi/items/f19d50794e3fabad5e95)
 
 
 <br>
@@ -53,7 +53,7 @@ Have to consider belows when retry
 ![when-we-sould-retry-in-rest-template_RestException](/assets/images/when-we-sould-retry-in-rest-template_RestException.png)
 
 
-[→RestTemplateが投げる例外クラスまとめ](https://qiita.com/shotana/items/88b120432e694c9b63f6)
+[RestTemplateが投げる例外クラスまとめ](https://qiita.com/shotana/items/88b120432e694c9b63f6)
 
 
 <br>
@@ -76,7 +76,8 @@ Here are 5xx Responses and had better retry when first request failed except 505
 | 503 | Service Unavailable | server is temporarily unable to handle the request for being overloaded or down for maintenance |
 | 504 | Gateway Timeout | one server did not receive a timely response from another server |
 | 505 | HTTP Version Not Supported | server can emit if it doesn't support the major HTTP version the client used to make the request |
-[→spring-docs-HttpServerErrorException](https://docs.spring.io/spring/docs/current/javadoc-api/org/springframework/web/client/HttpServerErrorException.html)
+
+[spring-docs-HttpServerErrorException](https://docs.spring.io/spring/docs/current/javadoc-api/org/springframework/web/client/HttpServerErrorException.html)
 
 <br>
 
@@ -86,7 +87,7 @@ Here are 5xx Responses and had better retry when first request failed except 505
 
 Had better NOT retry when HTTPClientErrorException occur for it thrown when an HTTP 4xx is received. 4xx is caused by wrong request from client. Unless client fix wrong request, same 4xx will return even though how many request you send.
 
-**Here are 4xx Responses**
+Here are 4xx Responses  
 
 | Code | Status | Note |
 |:--------|:--------|:--------|
@@ -95,6 +96,7 @@ Had better NOT retry when HTTPClientErrorException occur for it thrown when an H
 | 403 | Forbidden | access to the requested (valid) URL by the client is Forbidden for some reason |
 | 404 | Not Found | browser was able to communicate with a given server, but the server could not find what was requested |
 | 405 | Method Not Allowed | server can emit if it doesn't support HTTP method is simply not supported |  
+
 <br>
 
 About HTTP 400, can prevent it by adding validation to request parameter.
@@ -105,9 +107,9 @@ BindingResult bindingResult = new DataBinder(params).getBindingResult();
 
 // call api
 ``` 
-[→spring-docs-HttpServerErrorException](https://hacknote.jp/archives/24535/)
 
-<br>
+[spring-docs-HttpServerErrorException](https://hacknote.jp/archives/24535/)
+
 
 ## may ok to retry when 4xx but...
 
