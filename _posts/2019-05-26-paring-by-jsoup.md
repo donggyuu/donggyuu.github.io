@@ -17,6 +17,8 @@ HTML Parser for Java. Do not have to use regex when parsing.
 Official doc : [jsoup: Java HTML Parser
 ](https://jsoup.org/)
 
+<br>
+
 # Environmet Set
 
 ## 1. Import library
@@ -36,6 +38,7 @@ Set user agent that check user's browser. If value of user agent contains mobile
 ```java
 String USER_AGENT = "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_9_2) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/33.0.1750.152 Safari/537.36";
 ```
+<br>
 
 Can get value of user agent by google as below.
 ![when-we-sould-retry-in-rest-template_RestException](/assets/images/parsing-by-jsoup.png)
@@ -62,11 +65,11 @@ Connection conn = Jsoup
 // Will parsing from this document value
 Document document = conn.get();
 ```
-
+<br>
 
 # Sample Usages
 
-## Get values using class
+## Use class
 
 For getting "*Sample Parsing Data*" from `"<p class="list_title ellipsis">Sample Parsing Data</p>"` in some HTML, do as below.  
 [sample_using_class](https://github.com/donggyuu/spring-basic/blob/master/crawling-jsoup/src/main/java/donggyu/lee/CrawlingMain.java#L41)
@@ -81,7 +84,7 @@ System.out.println("=====print titles=====");
 ```
 
 
-## Get values from duplicated tags
+## In duplicated tags
 
 Want to get href values from HTML that many tags are duplicated.
 ```html
@@ -96,6 +99,7 @@ Want to get href values from HTML that many tags are duplicated.
   </ol>
 </div>
 ```
+<br>
 
 For getting href values, filter values by using tags one by one.  
 [sample_duolicated_tages](https://github.com/donggyuu/spring-basic/blob/master/crawling-jsoup/src/main/java/donggyu/lee/CrawlingMain.java#L54)
