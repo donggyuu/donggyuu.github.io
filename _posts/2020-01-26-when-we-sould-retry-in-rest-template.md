@@ -25,7 +25,7 @@ API request using RestTemplate in Spring is not always successful for various ex
 <br>
 
 
-# Use @retryable for Retry
+# @retryable for Retry
 Can use @retryable for retry in Spring. It is ok to code oneself by Java but using annotation is more clear and easy to read.
 
 ```java
@@ -58,13 +58,15 @@ Have to consider belows when retry
 
 <br>
 
-# For ResourceAccessException
+# Retry in each Exception
+
+## ResourceAccessException
 Had better retry when ResourceAccessException occur for it thrown when an I/O error occurs like time out. Many practices do retry this exception occurs.  
 [→ spring-docs-ResourceAccessException](https://docs.spring.io/spring/docs/current/javadoc-api/org/springframework/web/client/ResourceAccessException.html)
 
 <br>
 
-# For HTTPServerErrorException
+## HTTPServerErrorException
 
 Had better retry when HTTPServerErrorException occur for it thrown when an HTTP 5xx is received.
 
@@ -81,9 +83,9 @@ Here are 5xx Responses and had better retry when first request failed except 505
 
 <br>
 
-# For HTTPClientErrorException
+## HTTPClientErrorException
 
-## not retry, add validation
+**not retry, add validation**
 
 Had better NOT retry when HTTPClientErrorException occur for it thrown when an HTTP 4xx is received. 4xx is caused by wrong request from client. Unless client fix wrong request, same 4xx will return even though how many request you send.
 
@@ -110,13 +112,14 @@ BindingResult bindingResult = new DataBinder(params).getBindingResult();
 
 [spring-docs-HttpServerErrorException](https://hacknote.jp/archives/24535/)
 
+<br>
 
-## may ok to retry when 4xx but...
+**may ok to retry when 4xx but...**
 
 Except HTTP 400, other 4xx errors are hardly happen. HTTP 400 itself will not happen if you add validation to request parameter. So retry when HTTPClientErrorException may ok in many cases but have to consider one more when doing like this.  
 
 <br>
 
-# For UnknownHTTPStatusCodeException
+## UnknownHTTPStatusCodeException
 
 Had better NOT retry when UnknownHTTPStatusCodeException occur for it thrown when an unknown (or custom) HTTP status code is received. Have to check the cause of this exception before you try to retry.
