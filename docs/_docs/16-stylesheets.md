@@ -161,22 +161,22 @@ Code block colors can easily be changed by overriding any of the following color
 
 ```scss
 /* default syntax highlighting (base16) */
-$base00: #263238;
-$base01: #2e3c43;
-$base02: #314549;
-$base03: #546e7a;
-$base04: #b2ccd6;
-$base05: #eeffff;
-$base06: #eeffff;
-$base07: #ffffff;
-$base08: #f07178;
-$base09: #f78c6c;
-$base0a: #ffcb6b;
-$base0b: #c3e88d;
-$base0c: #89ddff;
-$base0d: #82aaff;
-$base0e: #c792ea;
-$base0f: #ff5370;
+$base00: #fafafa;
+$base01: #073642;
+$base02: #586e75;
+$base03: #657b83;
+$base04: #839496;
+$base05: #586e75;
+$base06: #eee8d5;
+$base07: #fdf6e3;
+$base08: #dc322f;
+$base09: #cb4b16;
+$base0a: #b58900;
+$base0b: #859900;
+$base0c: #2aa198;
+$base0d: #268bd2;
+$base0e: #6c71c4;
+$base0f: #d33682;
 ```
 
 ##### Solarized light
