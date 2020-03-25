@@ -21,14 +21,18 @@ Profiles -> Session -> Automatically log session input to files
 # Change saving path
 ```
 
+<br>
+
 # Show Warning On Multiline Paste
 go to "Edit" -> "Paste Special" and check as below.
 
 ![My_iTerm2_Setup_newline_warning](/assets/images/My_iTerm2_Setup_newline_warning.png)
 
+<br>
 
- # Set Alias
- ```bash
+# Set Alias
+
+```bash
 vi ~/.bash_profile
 # ----------------
 alias ll='ls -la'
@@ -38,7 +42,9 @@ alias login='ssh leedonggyu@login~~'
 
 # apply
 source ~/.bash_profile
- ```
+```
+
+<br> 
 
 
 # Shortcut
