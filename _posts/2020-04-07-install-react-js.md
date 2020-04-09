@@ -13,6 +13,10 @@ tags:
 last_modified_at: 2020-04-07T08:06:00-05:00
 ---
 
+<!--TODO
+1. link활성화하기
+-->
+
 # Install Node.js
 Simplest way is using brew
 ```bash
@@ -37,7 +41,7 @@ experience while you are running this old version.
 Had better to use "npx" instead of "npm -g" based on official documents.  
 https://create-react-app.dev/docs/getting-started/
 ```bash
-# 1. create React app
+# step_1. create React app
 npx create-react-app test-app-name
 # ------------------
 npx: installed 99 in 11.535s
@@ -50,10 +54,9 @@ We suggest that you begin by typing:
   npm start
 
 
-# 2. start React app
+# step_2. start React app
 cd test-app-name
 npm start
 # ------------------
 Initial page will display automatically
 ```
-<br>
