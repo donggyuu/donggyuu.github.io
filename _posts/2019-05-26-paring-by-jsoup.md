@@ -4,7 +4,7 @@ excerpt: "How to use Jsoup library"
 toc: true
 toc_sticky: true
 header:
-  teaser: /assets/images/bio-photo-keyboard-teaser.jpg
+  teaser: /assets/images/parsing_jsoup.png
 categories:
   - Development
 tags:

@@ -4,7 +4,7 @@ excerpt: "Install React JS On Mac using npx"
 toc: true
 toc_sticky: true
 header:
-  teaser: /assets/images/My_iTerm2_Setup_teaser.png
+  teaser: /assets/images/instll_react_js.png
 categories:
   - Development
 tags:

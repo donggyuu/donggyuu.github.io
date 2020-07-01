@@ -4,11 +4,11 @@ excerpt: "Retry for Resttemplate Exception"
 toc: true
 toc_sticky: true
 header:
-  teaser: /assets/images/bio-photo-keyboard-teaser.jpg
+  teaser: /assets/images/when-we-sould-retry-in-rest-template_RestException.png
 categories:
   - Development
 tags:
-  - API
+  - API 
 last_modified_at: 2020-01-26T08:06:00-05:00
 ---
 
