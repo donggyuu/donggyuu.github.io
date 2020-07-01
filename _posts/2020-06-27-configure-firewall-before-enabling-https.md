@@ -4,7 +4,7 @@ excerpt: "Check Firewall if SSL Certificatino doesn't works"
 toc: true
 toc_sticky: true
 header:
-  teaser: /assets/images/My_iTerm2_Setup_teaser.png
+  teaser: /assets/images/firewall_erro_pages.png
 categories:
   - Development
 tags:
@@ -20,17 +20,17 @@ I try to Enable https by "Let's Encrypt" on by CentOS server but cannot access t
 ※ environment  
 -CentOS 7 (with amazon lightsail)  
 -Nginx 1.16.1  
-  
 ※ Manual for "Let's Encrypt" setup  
 -https://qiita.com/HeRo/items/f9eb8d8a08d4d5b63ee9
 
 In this case, We need to configure a firewall first before SSL certification setup
+</br>
   
   
 # Configure a Firewall for Lightsail
 Go to "amazon lightsail" console -> Networking -> Firewall -> Add rule -> Add HTTPS. User can access AWS instance using port 443(HTTPS).
 ![aws_instance_port 443](/assets/images/aws_instance_port_443.png)
-
+</br>
 
 # Configure a Firewall for CentOS 7
 From CentOS 7, we can use "firewalld" instead of "iptables". Open https using firewalld.  
