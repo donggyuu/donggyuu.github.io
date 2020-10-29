@@ -11,7 +11,7 @@ tags:
   - Setup
   - Linux
 last_modified_at: 2020-06-27T08:06:00-05:00
-published : true
+published: true
 ---
 
 # Overview

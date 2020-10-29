@@ -107,9 +107,9 @@ analytics:
 # Site Author
 author:
   name             : "Donggyu Lee"
-  avatar           : "/assets/images/bio-photo-keyboard.jpg"
+  avatar           : "/assets/images/my_picture.jpg"
   bio              : "Backend Engineer"
-  location         : "Tokyo"
+  location         : "Seoul"
   email            : 
   links:
     - label: "donggyu.rhee@gmail.com"
