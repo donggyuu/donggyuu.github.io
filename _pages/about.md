@@ -2,7 +2,7 @@
 title: "About Me"
 permalink: /about/
 toc_sticky: true
-toc_ads : true
+toc_ads : false
 layout: single
 ---
   
