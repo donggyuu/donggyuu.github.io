@@ -13,7 +13,7 @@ last_modified_at: 2020-10-31T08:06:00-05:00
 ---
 
 ## Install Python3
-```
+```bash
 # install by brew
 brew install python
 
@@ -44,10 +44,9 @@ Type "help", "copyright", "credits" or "license" for more information.
 
 ```
 
-<br>
 
 ## Install pip
-```
+```bash
 # download "get-pip.py"
 curl https://bootstrap.pypa.io/get-pip.py -o get-pip.py
 
@@ -61,9 +60,10 @@ pip 20.2.4 from /usr/local/lib/python3.8/site-packages/pip (python 3.8)
 ```
 https://pip.pypa.io/en/stable/installing/
 
-<br>
 
 ## Setup VS code
+
+**SETUP**  
 Step_1. Download extension for python by Microsoft.  
 ![python_vsc_setup_1](/assets/images/python_vsc_setup_1.png)
  
@@ -74,13 +74,13 @@ Step_3. Click install button and install "linter-Pylint"
 ![python_vsc_setup_3](/assets/images/python_vsc_setup_3.png)
 
 <br>
-※ When faced an error as below...   
+**When faced an error as below...**
 
-```
+```bash
 VSCode: There is no Pip installer available in the selected environment
 ```
 solution_1 - speficy version of python  
-```
+```bash
 # check which python I used
 which python3
 ---------------------
@@ -92,7 +92,7 @@ which python3
 ```
 
 solution_2 - setup environment path
-```
+```bash
 vi ~/.bash_profile
 ---------------------
 export PATH=$PATH:/usr/local/lib/python3.8/site-packages
