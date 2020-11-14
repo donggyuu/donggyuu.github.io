@@ -9,7 +9,14 @@ layout: single
 다시 써먹을 것 같은 내용들을 남기기 위한 블로그 입니다.  
 개발 관련 글은 영어로, 그 이외의 주제는 한글로 기록하고 있습니다.  
   
-간단 이력  
+**연락처**
+- Mail : donggyu.rhee@gmail.com
+- Git : https://github.com/donggyuu
+- Blog : https://donchan.me  
+(일본어 日本語ブログ)
+
+
+**간단 이력**  
 - ~ 2017   
 -- 각종 일본관련 행사 통역 알바  
 - 2017.08    
