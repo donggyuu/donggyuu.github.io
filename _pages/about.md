@@ -10,10 +10,10 @@ layout: single
 개발 관련 글은 영어로, 그 이외의 주제는 한글로 기록하고 있습니다.  
   
 **연락처**
-- Mail : donggyu.rhee@gmail.com
-- Git : https://github.com/donggyuu
-- Blog : https://donchan.me  
-(일본어 日本語ブログ)
+- 메일 : [donggyu.rhee@gmail.com](donggyu.rhee@gmail.com)
+- 깃허브 : [https://github.com/donggyuu](https://github.com/donggyuu)
+- ブログ : [https://donchan.me](https://donchan.me)  
+(일본어 블로그)
 
 
 **간단 이력**  
