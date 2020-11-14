@@ -17,7 +17,6 @@ last_modified_at: 2020-11-14T08:06:00-05:00
 In my case, I try to upload my newspaper theme file(.zip) but faced an error.
 ![error_link_has_expired](/assets/images/error_link_has_expired.png)
 
-<br>
 
 ## Why they way of editting files is not good
 Many other pages said editting htaccess file or something like that. I don't feel like doing that for I do not want to modify default setting of files. Modifying defaults always have chances of making trouble. And some people might have no right to modify files on server side.  
@@ -25,7 +24,6 @@ Many other pages said editting htaccess file or something like that. I don't fee
 Please refer to following page If you want to fix this error by editting files.  
 https://www.wpbeginner.com/wp-tutorials/how-to-fix-the-link-you-followed-has-expired-error-in-wordpress/
 
-<br>
 
 ## Fix error using scp
 Upload your file by yourself using scp commandline as below. I use Amazon AWS so added option for using Amazon key pairs.
