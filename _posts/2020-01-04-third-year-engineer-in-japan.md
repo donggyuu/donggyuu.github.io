@@ -4,7 +4,7 @@ excerpt: "해외 개발자 생활 3년차를 맞이하며 느낀 생각들"
 toc: true
 toc_sticky: true
 header:
-  teaser: /assets/images/ when-we-sould-retry-in-rest-template_RestException.png
+  teaser: /assets/images/third-year_coder_1.jpg
 categories:
   - Essay
 tags:
@@ -24,7 +24,7 @@ last_modified_at: 2020-01-04T08:06:00-05:00
  우연한 기회로 타 회사의 코딩 테스트를 볼 기회가 있었는데 결과적으로 잘 풀지 못했다. 문제를 제출하고 제일 먼저 든 생각은 "억울함"이었다. 나는 지난 일년 반 동안 야근도 하며 열심히 했는데 왜 사회에서 요구하는 평균적인 개발자 수준에 도달하지 못했는가?
  그건 바로, 야근을 하면 해당 회사의 시스템에 익숙해 지기 때문이다. 돌이켜 생각해 보면, 회사의 시스템을 잘 몰라서 야근을 하게 되는 경우가 많았다. 예로, 새로운 서버의 증설을 하는 경우 필요한 절차를 알아내는데 시간이 많이 걸렸다. 타부서의 어느 팀에, 어느 페이지를 통해서 어떠한 내용을 기재해서 신청해야 하는가는 구글링한다고 나오는 문제가 아니다. 다른 사람에게 질문해도, 그들도 잘 모른다. 이 바닥은 이직이 잦기 때문에. 그래서 결국 과거의 티켓 이력을 하나하나 찾아가게 되고 많은 시간이 소모된다.
  문제는, 한 회사의 시스템은 다른 회사에서는 전혀 필요없게 된다는 것이다. 따라서 야근을 하면 일을 열심히 했다는 사실에 안도감을 얻을지 몰라도 실력 향상에는 그다지 도움이 되지 않는다. 최대한 주어진 시간 내에 일을 끝내고 퇴근 후 평소 관심있던 프로젝트에 시간을 좀더 투자해야 겠다.  
- ![third-year_coder_1](/assets/images/third-year_coder_1.png)  
+ ![third-year_coder_1](/assets/images/third-year_coder_1.jpg)  
 
 
 
