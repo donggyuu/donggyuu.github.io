@@ -18,13 +18,16 @@ Should be more more careful in below cases for it locks quite differently as exp
 - ranged index
 - non unique value
 
-## Prepare test data
+## Preparing test data
 *※ Using InnoDB engine*  
 **student_info**
 - personal information for student
 - unique index : id  
 
 ![pesslock_1](/assets/images/pesslock_1.png)  
+
+<br>
+
 **student_score**  
 - score of each subject for student
 - composite key(複合主キー) : student_number, subject_code
@@ -66,6 +69,6 @@ But it seems locking all tables(*※ 検証が必要*).
 ![pesslock_7](/assets/images/pesslock_7.png)  
 
 
-**Locking with Composite Key**
+## Locking with Composite Key
 For example, composite key is consist of two column - student_number and subject_code. If only use student_number for locking then all rows selected by student_number will be locked.  
 ![pesslock_8](/assets/images/pesslock_8.png)  
