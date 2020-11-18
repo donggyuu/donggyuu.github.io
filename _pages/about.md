@@ -12,8 +12,7 @@ layout: single
 **연락처**
 - 메일 : [donggyu.rhee@gmail.com](donggyu.rhee@gmail.com)
 - 깃허브 : [https://github.com/donggyuu](https://github.com/donggyuu)
-- ブログ : [https://donchan.me](https://donchan.me)  
-(일본어 블로그)
+- 유튜브 : [https://www.youtube.com/channel/UC3nBtwH0D_AEQZP56fRO55g](https://www.youtube.com/channel/UC3nBtwH0D_AEQZP56fRO55g)
 
 
 **간단 이력**  
