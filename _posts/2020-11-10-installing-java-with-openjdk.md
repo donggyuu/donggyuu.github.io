@@ -11,7 +11,7 @@ tags:
   - Setup 
 last_modified_at: 2020-11-10T08:06:00-05:00
 ---
-**Video : https://youtu.be/qp_i6Pw4tS8**
+**Video : https://youtu.be/pzW3JUDyvHU**
 
 ## Why use OpenJDK for Java?
 There are two options for installing Java on your Mac.  
