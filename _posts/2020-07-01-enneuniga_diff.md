@@ -10,7 +10,7 @@ categories:
 tags:
   - Japanese
 last_modified_at: 2020-07-01T08:06:00-05:00
-published: false
+published: true
 ---
 
 <!--학습순서
