@@ -20,7 +20,8 @@ layout: single
 -- 각종 행사 일본어 통역 알바  
 (2016 k food festival, 코리아 세일 페스타)
 - 2017.08    
--- 히사이시 조 & 월드 드림 오케스트라 내한 공연 일본어 통역
+-- [히사이시 조 & 월드 드림 오케스트라 내한 공연](https://www.lotteconcerthall.com/kor/Performance/ConcertDetails/257563) 일본어 통역
+
 - 2018.02    
 -- 한국외국어대학교 졸업(컴퓨터 공학, 일본어학 전공)  
 - 2018.04 ~ 2020.09   
