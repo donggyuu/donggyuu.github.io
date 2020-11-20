@@ -1,5 +1,5 @@
 ---
-title: "개발자가 4년 쓴 로지텍 K380 블루투스 키보드 후기, 리뷰, 장단점
+title: "개발자가 4년 쓴 로지텍 K380 블루투스 키보드 후기, 리뷰, 장단점"
 excerpt: "벌써 4년 정도 쓴 K380 키보드 리뷰 및 유일한 단점 하나"
 toc: true
 toc_sticky: true
@@ -48,4 +48,5 @@ K380은 맥북에도 블루투스 페어링 이슈가 없었습니다. 구형 �
 ## 구입은 여기서...
 글이 도움이 되었고 K380을 구입 예정이시면 아래 링크에서 구입 부탁드리겠습니다. 처음 살 때만해도 본체만 팔았었는데, 인기가 많아져서 그런지 서드 파티 키스킨도 여러가지 있네요.  
 <a href="https://coupa.ng/bMDVKN" target="_blank"><img src="https://static.coupangcdn.com/image/affiliate/banner/709286a25bebf22bd0f39405621684c9@2x.jpg" alt="로지텍 K380 블루투스 키보드 병행 무선키보드, 없음, 파우더핑크 (영문각인)" width="120" height="240"></a>
-<a href="https://coupa.ng/bMDVQ0" target="_blank"><img src="https://static.coupangcdn.com/image/affiliate/banner/a0c650acd2844f5550614f1cf82a99cd@2x.jpg" alt="대니하우스 로지텍 k380 키스킨 컬러, 1개" width="120" height="240"></a>
+<a href="https://coupa.ng/bMDVQ0" target="_blank"><img src="https://static.coupangcdn.com/image/affiliate/banner/a0c650acd2844f5550614f1cf82a99cd@2x.jpg" alt="대니하우스 로지텍 k380 키스킨 컬러, 1개" width="120" height="240"></a>  
+*“파트너스 활동을 통해 일정액의 수수료를 제공받을 수 있음"*
