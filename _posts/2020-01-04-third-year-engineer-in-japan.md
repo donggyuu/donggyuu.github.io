@@ -8,7 +8,7 @@ header:
 categories:
   - Essay
 tags:
-  - Korean 
+  - Essay  
 last_modified_at: 2020-01-04T08:06:00-05:00
 ---
  
