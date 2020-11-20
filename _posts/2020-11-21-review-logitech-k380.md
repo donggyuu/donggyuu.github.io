@@ -13,9 +13,7 @@ last_modified_at: 2020-11-21T08:06:00-05:00
 ---
 <script src="https://ads-partners.coupang.com/g.js"></script>
 <script>
-    new PartnersCoupang.G({
-        id: 1
-    });
+	new PartnersCoupang.G({ id:368772 });
 </script>  
 
 개발자인 저는 지금까지 구입한 키보드만도 20가지는 넘을 것 같습니다(소위 장비충...). 멤브레인, 펜타그래프부터 기계식, 무접점까지 사고 팔고를 반복하여 현재 제 손에 남은 것은 아래의 세 제품입니다(나열은 저렴한 순서대로)   
