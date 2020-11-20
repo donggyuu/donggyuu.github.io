@@ -1,5 +1,5 @@
 ---
-title: "일본에서 개발 3년차를 맞이하며"
+title: "일본에서 개발자 3년차를 맞이하며"
 excerpt: "해외 개발자 생활 3년차를 맞이하며 느낀 생각들"
 toc: true
 toc_sticky: true
