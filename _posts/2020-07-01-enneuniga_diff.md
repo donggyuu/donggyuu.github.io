@@ -10,7 +10,7 @@ categories:
 tags:
   - Others
 last_modified_at: 2020-07-01T08:06:00-05:00
-published: true
+published: false
 ---
 
 <!--학습순서
