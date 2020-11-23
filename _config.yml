@@ -16,10 +16,10 @@ minimal_mistakes_skin    : "default" # "air", "aqua", "contrast", "dark", "dirt"
 
 # Site Settings
 locale                   : "en-US"
-title                    : "Donggyu Lee's Blog"
+title                    : "Seoul Engineer Donchan"
 title_separator          : "-"
 subtitle                 : # site tagline that appears below site title in masthead
-name                     : "donggyu lee"
+name                     : "donchan"
 description              : "explanation for blog"
 url                      : "https://github.com/donggyuu"
 baseurl                  : # 서브 경로가 있는 경우 기재
@@ -106,7 +106,7 @@ analytics:
 
 # Site Author
 author:
-  name             : "Donggyu Lee"
+  name             : "DonChan"
   avatar           : "/assets/images/my_picture.jpg"
   bio              : "Backend Engineer"
   location         : "Seoul"
