@@ -12,6 +12,8 @@ tags:
 last_modified_at: 2020-11-15T08:06:00-05:00
 ---
 
+[Source Code](https://github.com/donggyuu/like-click-bot)  
+
 ## 개요
 Selenium을 공부한김에 뭔가 실용적인 스크립트를 하나 짜고 싶었습니다. 마침 [개발이외의 주제를 다루는 블로그](https://blog.naver.com/donggyu_rhee)를 최근에 개설해서, 제 대신 이웃블로그의 포스팅에 좋아요를 눌러주는 봇을 만들어보기로 하였습니다.  
 <br>
