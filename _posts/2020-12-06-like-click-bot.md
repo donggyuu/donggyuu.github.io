@@ -76,5 +76,8 @@ time.sleep(1)
 mainFrame= driver.find_element_by_id("mainFrame")
 ```
 
+→ 참고한 
+[stackoverflow](https://stackoverflow.com/questions/52751923/unable-to-locate-element-within-an-iframe-through-selenium/52752249)  
+
 ## 어디까지나 재미로...
 본 프로그램은 어디까지나 재미로 읽어주시면 감사하겠습니다. 타인이 정성들여 작성한 포스팅은 **꼭 읽고 직접 좋아요와 댓글로 성의표시를 합시다.**
