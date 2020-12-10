@@ -64,6 +64,8 @@ npm start
 Initial page will display automatically
 ```
 
+# Errors
+**errors_1**  
 If "Permission denied" error occur when start npm, make sure that react-scripts binary is executable.
 ```bash
 # ERROR - Permission denied 
@@ -81,7 +83,42 @@ npm ERR! This is probably not a problem with npm. There is likely additional log
 
 npm ERR! A complete log of this run can be found in:
 npm ERR!     /Users/donggyu/.npm/_logs/2020-04-07T11_26_37_733Z-debug.log
+```
 
-# Solution - Make scripts is executable
+Solution - please make scripts as executable
+```bash
+# Solution
 chmod +x node_modules/.bin/react-scripts
+```
+
+<br>
+
+**errors_2**  
+Below errors can be occur when you clone your React project from git. It because there were no "node_modules" for npm.   
+```bash
+$ npm start
+
+> is-fukushima@0.1.0 start /Users/don/Dropbox/git/is-fukushima
+> react-scripts start
+
+sh: react-scripts: command not found
+npm ERR! file sh
+npm ERR! code ELIFECYCLE
+npm ERR! errno ENOENT
+npm ERR! syscall spawn
+npm ERR! is-fukushima@0.1.0 start: `react-scripts start`
+npm ERR! spawn ENOENT
+npm ERR!
+npm ERR! Failed at the is-fukushima@0.1.0 start script.
+npm ERR! This is probably not a problem with npm. There is likely additional logging output above.
+npm WARN Local package.json exists, but node_modules missing, did you mean to install?
+
+npm ERR! A complete log of this run can be found in:
+npm ERR!     /Users/don/.npm/_logs/2020-12-10T10_14_09_297Z-debug.log
+```
+
+Solution - please install npm
+```bash
+# Solution
+npm install
 ```
