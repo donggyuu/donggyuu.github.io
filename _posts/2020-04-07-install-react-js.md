@@ -18,6 +18,11 @@ Simplest way is using brew
 ```bash
 # npm install
 brew install node
+
+# check
+node --version
+--------------------
+v10.15.1
 ```
 
 In old macOS, cannot install Node.js by brew. Please download Node.js from official site.  

@@ -4,7 +4,7 @@ excerpt: "CentOS 7에서 Selenium 설정 및 발생 가능 에러 정리"
 toc: true
 toc_sticky: true
 header:
-  teaser: /assets/images/like-click_bot_2.png
+  teaser: /assets/images/install-selenium-on-centos.png
 categories:
   - Development 
 tags:

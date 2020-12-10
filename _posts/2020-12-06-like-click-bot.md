@@ -23,6 +23,8 @@ Selenium을 공부한김에 뭔가 실용적인 스크립트를 하나 짜고 �
 사진으로 보면 아래와 같습니다.  
 ![like-click_bot_2](/assets/images/like-click_bot_2.png)   
 
+또한 Mac환경에서 동작확인을 하였습니다.
+
 ## 사용 방법
 전체 코드를 [여기](https://github.com/donggyuu/like-click-bot)서 클론해줍니다.
 
