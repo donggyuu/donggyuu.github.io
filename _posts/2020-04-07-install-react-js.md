@@ -8,8 +8,7 @@ header:
 categories:
   - Development
 tags:
-  - Setup
-  - React
+  - Javascript
 last_modified_at: 2020-04-07T08:06:00-05:00
 ---
 

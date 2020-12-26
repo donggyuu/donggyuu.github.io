@@ -6,11 +6,11 @@ toc_sticky: true
 header:
   teaser: /assets/images/korean_default_image.png
 categories:
-  - Others
+  - Japan
 tags:
-  - Others
+  - Japan
 last_modified_at: 2020-07-01T08:06:00-05:00
-published: false
+published: true
 ---
 
 <!--학습순서

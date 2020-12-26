@@ -6,11 +6,11 @@ toc_sticky: true
 header:
   teaser: /assets/images/logitech_3.jpeg
 categories:
-  - Gear 
+  - Review
 tags:
-  - Gear 
+  - Review 
 last_modified_at: 2020-11-21T08:06:00-05:00
-published: false
+published: true
 ---
 <script src="https://ads-partners.coupang.com/g.js"></script>
 <script>

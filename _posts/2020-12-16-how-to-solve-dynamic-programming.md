@@ -8,11 +8,18 @@ header:
 categories:
   - Development 
 tags:
-  - Python
-  - Linux
+  - Algorithm
 last_modified_at: 2020-12-07T08:06:00-05:00
-published: true
+published: false
 ---
+
+아주 흥미롭다 일상생활의 문제를 푸는 가장 실용적이다. 
+일상은 프랙탈. 마치 겨울왕국의 얼음 처럼. 인지 못할 뿐 많은 반복... 
+엑셀 등도 그렇고 박복 작업. 단순 반복이라기 보다는...
+그리디와 구분하기 
+
+
+
 
 ## 개요
 [이전 포스팅](https://donggyuu.github.io/development/like-click-bot)에서는 Local에서 셀레니움을 이용해 간단한 봇을 만들어보았습니다. 봇을 서버에 올려 정해진 시간에 동작하도록 하면 수동으로 실행하는 것보다 간단하겠죠.   
