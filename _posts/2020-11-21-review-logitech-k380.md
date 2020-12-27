@@ -6,9 +6,9 @@ toc_sticky: true
 header:
   teaser: /assets/images/logitech_3.jpeg
 categories:
-  - Review
+  - Essay
 tags:
-  - Review 
+  - Essay 
 last_modified_at: 2020-11-21T08:06:00-05:00
 published: true
 ---

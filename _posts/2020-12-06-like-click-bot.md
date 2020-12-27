@@ -11,6 +11,11 @@ tags:
   - Python
 last_modified_at: 2020-12-06T08:06:00-05:00
 ---
+<script src="https://ads-partners.coupang.com/g.js"></script>
+<script>
+	new PartnersCoupang.G({ id:368772 });
+</script>  
+<br>
 
 [Can clone source code here](https://github.com/donggyuu/like-click-bot)  
 
