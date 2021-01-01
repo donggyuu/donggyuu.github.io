@@ -6,9 +6,9 @@ toc_sticky: true
 header:
   teaser: /assets/images/third-year_coder_1.jpg
 categories:
-  - Essay
+  - Development
 tags:
-  - Essay  
+  - dev_Others  
 last_modified_at: 2020-01-04T08:06:00-05:00
 published: true
 ---

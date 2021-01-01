@@ -13,7 +13,7 @@ last_modified_at: 2020-12-07T08:06:00-05:00
 published: false
 ---
 
-spring hateoas
+spring hateoas 에 대한 글 정리중 ...
 
 참고중 : 
 https://engkimbs.tistory.com/866

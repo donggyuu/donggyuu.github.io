@@ -8,7 +8,7 @@ header:
 categories:
   - Japanese
 tags:
-  - Japanese
+  - jp_Study
 last_modified_at: 2020-07-01T08:06:00-05:00
 published: true
 ---

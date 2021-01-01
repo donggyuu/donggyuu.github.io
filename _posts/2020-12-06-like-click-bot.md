@@ -8,7 +8,7 @@ header:
 categories:
   - Development 
 tags:
-  - Python
+  - dev_Python
 last_modified_at: 2020-12-06T08:06:00-05:00
 ---
 <script src="https://ads-partners.coupang.com/g.js"></script>

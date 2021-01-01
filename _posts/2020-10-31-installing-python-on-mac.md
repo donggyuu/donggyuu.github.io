@@ -8,7 +8,7 @@ header:
 categories:
   - Development
 tags:
-  - Python
+  - dev_Python
 last_modified_at: 2020-10-31T08:06:00-05:00
 ---
 **Video : https://youtu.be/cvsjSedzvB4**

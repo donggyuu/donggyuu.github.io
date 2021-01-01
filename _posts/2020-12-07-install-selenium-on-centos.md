@@ -8,8 +8,8 @@ header:
 categories:
   - Development 
 tags:
-  - Python
-  - Linux
+  - dev_Python
+  - dev_Server
 last_modified_at: 2020-12-07T08:06:00-05:00
 published: true
 ---
