@@ -30,8 +30,6 @@ published: true
 감사하게도 졸업을 하고 개발자로 일을 하게 되었고 진로 관련하여 [주간지인 "내일교육"과의 인터뷰](https://blog.naver.com/naeil_education/222024773986)도 했었습니다.
 인터뷰 내용을 보려면 회원가입...이 필요하기에 제가 나온 부분만 아래에 첨부합니다.   
 
-<br>  
-
 ![learn-programming](/assets/images/learn-programming.png) 
 
 인터뷰 내용에 더하여, 직접 일해보고나서 느끼는 생각도 정리할 겸 글을 작성합니다.
