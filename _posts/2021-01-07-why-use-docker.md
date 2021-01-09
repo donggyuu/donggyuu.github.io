@@ -25,43 +25,79 @@ docker는 container의 개념으로 위의 문제를 해결합니다. 프로그�
 
 
 ## 이미지와 컨테이너의 개념 
-이미지에는 명령어와 스냅샷이 들어간다 
-이미지를 가지도커를 실행하면 container가 다음과 같이 만들어지고 container를 사용 간으 .
+image는 container를 만드는데 필요한 일종의 설계서라고 할 수 있습니다. 
 
+이미지에는 아래의 2가지가 들어있습니다.
+- container시작시 실행될 명령어 
+- 파일 스냅샷
 
-사진 : docker #1 의 "도커 이미지와 도커 컨테이너의 정의"
-
-docker image를 사용해 container를 생성, docker container로 프로그램을 실행한다. 
-
-
-
-
-## 이미지로 컨테이너 만들기
-이미지 : 실행될 명령어 + 파일 스냅샷
-docker run hello-world
-> container안의 hard-disk 에 hello-world설치파일을 넣음
-container안에 명령어(run hello-world)를 넣음
-
-
-docker version 입력해보면 linux가 나온다.
-왜? container안에는 linux vm이 되어 있다.
-내 컴은 mac이지만 docker환경 자체는 linux, linux커널 기반, 그래서 Cgroup, name-space를 사용가능해서 container를 나누기가 가능했다.
-
-
-** docker run vs exec
+hello-world 이미지를 예로 들면,  
+이미지로부터 아래와 같이 container를 만들 수 있습니다.
 ```bash
-mac:~ don$ docker ps
-CONTAINER ID   IMAGE     COMMAND            CREATED          STATUS          PORTS     NAMES
-41c7b9d0af92   alpine    "ping localhost"   16 seconds ago   Up 15 seconds             wonderful_panini
-mac:~ don$
-mac:~ don$ docker exec 41c7b9d0af92 ls
+docker run hello-world
 ```
+그림으로 그려보면 아래와 같이 hello-world container가 만들어지고 실행된 상태가 됩니다.   
+
+"사진"
+
 
 
 ## docker의 생명주기
+docker-container의 생명 주기는 위에서 아래로 다음과 같습니다.  
+- create
+- start
+- running
+- stopped
+- deleted
 
+"사진"
 
 ### create, start, running
 
+**create**   
+create는 image를 바탕으로 container를 생성만 하고 실행은 하지 않습니다. image의 파일 스냅샷이 container의 하드 디스크에 올라간 상태입니다.  
+```bash
+docker create "이미지 이름"
+--------------------------
+# container가 생성되어 고유 hash-value가 출력된 모습
+mac:donggyuu.github.io don$ docker create hello-world
+8d0e9a06aa06eee6ca4beadb5ac1f50fc0dfdafaa29c1deea9321a51d851faba
+```
+**start**   
+create로 container를 생성했다면 start로 실행할 수 있습니다. image에 있는 "시작 시 실행될 명령어"가 container에 올라가는 시점입니다.  
+```bash
+docker start "컨테이너 아이디 or 이름"
+--------------------------
+# container의 아이디(hash-value)로 start
+mac:donggyuu.github.io don$ docker start 8d0e9a06aa06
+```
+
+**run**  
+run은 "create+start"입니다.
+```bash
+docker run "이미지 이름"
+--------------------------
+docker run hello-world
+```
+
+
 ### stopped, deleted
+**stopped**  
+container를 멈추는 명령어는 2가지가 있습니다.  
+```bash
+# 방법1
+docker stop "중지할 컨테이너 아이디 or 이름"
+
+# 방법2
+docker kill "중지할 컨테이너 아이디 or 이름"
+```
+stop은 진행중인 작업이 있으면 해당 작업까지 완료하고 container를 멈춥니다(graceful하게 멈춤). 
+
+반면 kill은 진행중인 작업과 상관없이 즉시 container를 멈춥니다. 
+
+**deleted**  
+conatainer를 삭제하기 전에 먼저 중지를 해야 합니다. 중지 후에는 아래 명령어로 삭제할 수 있습니다. 
+```bash
+docker rm "삭제할 컨테이너 아이디 or 이름"
+```
 
