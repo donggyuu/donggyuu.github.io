@@ -10,15 +10,20 @@ categories:
 tags:
   - dev_Others
 last_modified_at: 2021-01-04T08:06:00-05:00
-published: false
+published: true
 ---
+<script src="https://ads-partners.coupang.com/g.js"></script>
+<script>
+	new PartnersCoupang.G({ id:368772 });
+</script>  
+<br>
 
 ## docker를 사용하는 이유
 인터넷에서 프로그램을 다운받아 설치하는 경우, 서버, 패키지 버전, OS 등에 따라 설치 과정 중 많은 오류가 발생할 수 있습니다. 분명 블로그를 보고 MySQL이나 Redis 등을 설치하려 했는데 잘 되지 않는 경우가 많죠.   
 
-docker는 container의 개념으로 위의 문제를 해결합니다. 프로그램과 그것의 실행 환경, 코드의 종속성 등을 container라는 일종의 박스 단위로 추상화합니다. container안에 프로그램을 실행하는데 필요한 모든 구성들을 넣고, 이렇게 함으로써  프로그램의 배포 및 관리를 단순하게 하고 어떤 환경에서도 잘 돌도록 할 수 있는 것입니다.    
+docker는 container의 개념으로 위의 문제를 해결합니다. 프로그램과 그것의 실행 환경, 코드의 종속성 등을 container라는 일종의 박스 단위로 추상화합니다. container안에 프로그램을 실행하는데 필요한 모든 구성들을 넣고, 이렇게 함으로써  프로그램의 배포 및 관리를 단순하게 하고 어떤 환경에서도 잘 돌도록 할 수 있는 것입니다.     
 
-"사진"
+![why-use-docker-2](/assets/images/why-use-docker-2.png)
 
 한마디로 도커란, container기반으로 가상화 플랫폼을 사용, application을 더 쉽게 만들고 배포, 실행 및 운영할 수 있도록 설계된 일종의 도구입니다. 
 
@@ -36,9 +41,9 @@ hello-world 이미지를 예로 들면,
 ```bash
 docker run hello-world
 ```
-그림으로 그려보면 아래와 같이 hello-world container가 만들어지고 실행된 상태가 됩니다.   
+그림으로 그려보면 아래와 같이 hello-world container가 만들어지고 실행된 상태가 됩니다.    
 
-"사진"
+![why-use-docker-3](/assets/images/why-use-docker-3.png)
 
 
 
@@ -50,7 +55,7 @@ docker-container의 생명 주기는 위에서 아래로 다음과 같습니다.
 - stopped
 - deleted
 
-"사진"
+![why-use-docker-4](/assets/images/why-use-docker-4.png)
 
 ### create, start, running
 
@@ -100,4 +105,3 @@ conatainer를 삭제하기 전에 먼저 중지를 해야 합니다. 중지 후�
 ```bash
 docker rm "삭제할 컨테이너 아이디 or 이름"
 ```
-
