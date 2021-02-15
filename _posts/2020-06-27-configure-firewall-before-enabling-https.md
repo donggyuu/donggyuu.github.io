@@ -8,7 +8,7 @@ header:
 categories:
   - Development
 tags:
-  - dev_Server
+  - Manual
 last_modified_at: 2020-06-27T08:06:00-05:00
 published: true
 ---

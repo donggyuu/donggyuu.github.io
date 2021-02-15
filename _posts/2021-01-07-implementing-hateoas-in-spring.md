@@ -8,7 +8,8 @@ header:
 categories:
   - Development 
 tags:
-  - dev_Java
+  - Manual
+  - Basic
 last_modified_at: 2021-01-07T08:06:00-05:00
 published: true
 ---

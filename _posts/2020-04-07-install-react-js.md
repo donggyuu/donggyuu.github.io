@@ -8,7 +8,7 @@ header:
 categories:
   - Development
 tags:
-  - dev_Javascript
+  - Manual
 last_modified_at: 2020-04-07T08:06:00-05:00
 ---
 
