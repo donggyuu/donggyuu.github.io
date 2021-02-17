@@ -6,9 +6,9 @@ toc_sticky: false
 header:
   teaser: /assets/images/bio-photo-keyboard-teaser.png
 categories:
-  - 
+  - Others
 tags:
-  - 
+  - Others
 last_modified_at: 2019-05-22T08:06:00-05:00
 ---
 
