@@ -1,8 +1,8 @@
 ---
 title:  "직접 구매한 상품의 쿠팡 링크"
 excerpt: "구매한 상품의 쿠팡 구입 링크 목록"
-toc: false
-toc_sticky: false
+toc: true
+toc_sticky: true
 header:
   teaser: /assets/images/bio-photo-keyboard-teaser.png
 categories:
