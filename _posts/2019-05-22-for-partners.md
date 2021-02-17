@@ -35,5 +35,9 @@ last_modified_at: 2019-05-22T08:06:00-05:00
 <a href="https://coupa.ng/bRNaPF" target="_blank" referrerpolicy="unsafe-url"><img src="https://static.coupangcdn.com/image/affiliate/banner/d99e98635e20b875591b51112f6cde03@2x.jpg" alt="제네럴밀스 시나몬 토스트 크런치 시리얼, 547g, 1개" width="120" height="200"></a>
 <a href="https://coupa.ng/bRNbhz" target="_blank" referrerpolicy="unsafe-url"><img src="https://static.coupangcdn.com/image/affiliate/banner/ded837d36add6c6da7fba0f6b3cdfcba@2x.jpg" alt="치리오스 홀 그레인 오트 시리얼, 340g, 1개" width="120" height="200"></a>
 <a href="https://coupa.ng/bRNa9D" target="_blank" referrerpolicy="unsafe-url"><img src="https://static.coupangcdn.com/image/affiliate/banner/a5b03531cf50846336c40bf8e1fc7df2@2x.jpg" alt="플립즈 화이트퍼지 프레첼, 90g, 6개" width="120" height="200"></a>
+
+## 맥북에어  
+[개발자 노트북으로 맥북을 추천하는 이유](hhttps://blog.naver.com/donggyu_rhee/222202900755)  
+<a href="https://coupa.ng/bRNfDB" target="_blank" referrerpolicy="unsafe-url"><img src="https://static.coupangcdn.com/image/affiliate/banner/3cc1efb63be323fad3c9c6eb59bd1bf7@2x.jpg" alt="Apple 2020년 맥북 에어 13 (M1 칩셋 8코어 CPU), 8GB, SSD 256GB, 7-Core GPU, 실버" width="120" height="200"></a>  
   
 “파트너스 활동을 통해 일정액의 수수료를 제공받을 수 있음"
