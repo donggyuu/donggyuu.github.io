@@ -6,11 +6,11 @@ toc_sticky: true
 header:
   teaser: /assets/images/third-year_coder_1.jpg
 categories:
-  - Development
+  - Others
 tags:
-  - Essay
+  - Others
 last_modified_at: 2020-01-04T08:06:00-05:00
-published: false
+published: true
 ---
 <script src="https://ads-partners.coupang.com/g.js"></script>
 <script>
