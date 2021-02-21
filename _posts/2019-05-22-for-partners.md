@@ -30,10 +30,13 @@ last_modified_at: 2019-05-22T08:06:00-05:00
 [입사전의 신입이 읽어야할 <학교에서 알려주지 않는 17가지 실무 개발 기술>](https://blog.naver.com/donggyu_rhee/222153737537)   
 <a href="https://coupa.ng/bRM9Ze" target="_blank" referrerpolicy="unsafe-url"><img src="https://static.coupangcdn.com/image/affiliate/banner/56ed0fc643ac84413719fb0a3cc0ca4b@2x.jpg" alt="학교에서 알려주지 않는 17가지 실무 개발 기술:문자열 인코딩부터 웹 필수 지식까지, 한빛미디어" width="100" height="200"></a>
 
+## 이것이 취업을 위한 코딩 테스트다  
+[준비안된 코딩테스트, 꼼수로 통과하는 방법](https://blog.naver.com/donggyu_rhee/222242986691)  
+<a href="https://coupa.ng/bR2MtJ" target="_blank" referrerpolicy="unsafe-url"><img src="https://static.coupangcdn.com/image/affiliate/banner/3e48e19a7196b4a1c763c9ea4dd2c0ae@2x.jpg" alt="[한빛미디어]이것이 취업을 위한 코딩 테스트다 with 파이썬, 한빛미디어" width="100" height="200"></a>
+
 ## 아마존 셀러의 비밀  
 [일본 아마존 셀러 등록하기](https://blog.naver.com/donggyu_rhee/222155657872)  
 <a href="https://coupa.ng/bRQYTg" target="_blank" referrerpolicy="unsafe-url"><img src="https://static.coupangcdn.com/image/affiliate/banner/eb3308aba9213146ab56713229d3062f@2x.jpg" alt="[휴먼하우스]아마존 셀러의 비밀, 휴먼하우스" width="100" height="200"></a>
-<a href="https://coupa.ng/bRQ0aQ" target="_blank" referrerpolicy="unsafe-url"><img src="https://static.coupangcdn.com/image/affiliate/banner/10b60f1e68a98f53ce94460d2c36f116@2x.jpg" alt="PLAN.A 에어플레인 티켓 01 서울 에어팟 프로 TPU 투명 케이스, APP-SC-AIR01" width="100" height="200"></a>
 
 ## 미국 시리얼  
 [굳이 미국 시리얼을 직구했던 이유, 시리얼 리뷰, 후기, 추천](https://blog.naver.com/donggyu_rhee/222155250162)  
