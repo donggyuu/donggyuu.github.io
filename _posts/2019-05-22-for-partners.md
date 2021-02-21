@@ -17,6 +17,12 @@ last_modified_at: 2019-05-22T08:06:00-05:00
 <a href="https://coupa.ng/bRNbBC" target="_blank" referrerpolicy="unsafe-url"><img src="https://static.coupangcdn.com/image/affiliate/banner/2707e87cb416cd0045d5dd051edc49b3@2x.jpg" alt="Apple 2019년 iPad mini 5세대, Wi-Fi, 64GB, Space Gray" width="100" height="200"></a>
 <a href="https://coupa.ng/bRNb1e" target="_blank" referrerpolicy="unsafe-url"><img src="https://static.coupangcdn.com/image/affiliate/banner/a6a07d34984081e08a034a97c940b1de@2x.jpg" alt="Apple 2020년 iPad 10.2 8세대, Wi-Fi, 32GB, 스페이스 그레이" width="100" height="200"></a>
 <a href="https://coupa.ng/bRNbW7" target="_blank" referrerpolicy="unsafe-url"><img src="https://static.coupangcdn.com/image/affiliate/banner/4e7f4c4efacda7fa53bec2a2b870d9e4@2x.jpg" alt="아마존 킨들10세대 최신 ALL NEW Kindle 미국 킨들 정품, 화이트" width="100" height="200"></a>
+
+## 애플 매직 키보드
+[개발자,컴공 노트북으로 맥북을 추천하는 이유](https://blog.naver.com/donggyu_rhee/222202900755)  
+<a href="https://coupa.ng/bR2NW3" target="_blank" referrerpolicy="unsafe-url"><img src="https://static.coupangcdn.com/image/affiliate/banner/c270a88ed2290b2be910468b17b094ed@2x.jpg" alt="Apple 에어팟 프로, MWP22KH/A, 화이트" width="100" height="200"></a>
+<a href="https://coupa.ng/bR2Nyh" target="_blank" referrerpolicy="unsafe-url"><img src="https://static.coupangcdn.com/image/affiliate/banner/2e509d66a1ae1d0bbda24c6e507d1ae7@2x.jpg" alt="Apple 정품 매직 키보드 MQ5L2KH/A 한국어" width="100" height="200"></a>
+
 ## 로지텍 K380 블루투스 키보드  
 [개발자가 4년 쓴 로지텍 K380 블루투스 키보드 후기, 리뷰, 장단점](https://blog.naver.com/donggyu_rhee/222151430934)   
 <a href="https://coupa.ng/bRM49u" target="_blank" referrerpolicy="unsafe-url"><img src="https://static.coupangcdn.com/image/affiliate/banner/22fecc2496e59e4482192813a19bbaa4@2x.jpg" alt="로지텍 블루투스 멀티 디바이스 키보드 K380, 차콜 그레이" width="100" height="200"></a>
