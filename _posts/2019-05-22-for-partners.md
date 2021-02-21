@@ -1,6 +1,6 @@
 ---
-title:  "직접 구매한 상품의 쿠팡 링크"
-excerpt: "구매한 상품의 쿠팡 구입 링크 목록"
+title:  "쿠팡 링크 모음"
+excerpt: "직접 구매한 상품의 쿠팡 구입 링크 목록"
 toc: true
 toc_sticky: true
 header:
