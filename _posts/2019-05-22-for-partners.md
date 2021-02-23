@@ -20,6 +20,7 @@ last_modified_at: 2019-05-22T08:06:00-05:00
 
 ## 애플 매직 키보드
 [개발자,컴공 노트북으로 맥북을 추천하는 이유](https://blog.naver.com/donggyu_rhee/222202900755)  
+<a href="https://coupa.ng/bR9hes" target="_blank" referrerpolicy="unsafe-url"><img src="https://static.coupangcdn.com/image/affiliate/banner/330fc189d9d1b62c62836d530f3327e8@2x.jpg" alt="에어팟 케이스 1 2세대 프로 스위치, 에어팟 1/2세대" width="100" height="200"></a>
 <a href="https://coupa.ng/bR2NW3" target="_blank" referrerpolicy="unsafe-url"><img src="https://static.coupangcdn.com/image/affiliate/banner/c270a88ed2290b2be910468b17b094ed@2x.jpg" alt="Apple 에어팟 프로, MWP22KH/A, 화이트" width="100" height="200"></a>
 <a href="https://coupa.ng/bR2Nyh" target="_blank" referrerpolicy="unsafe-url"><img src="https://static.coupangcdn.com/image/affiliate/banner/2e509d66a1ae1d0bbda24c6e507d1ae7@2x.jpg" alt="Apple 정품 매직 키보드 MQ5L2KH/A 한국어" width="100" height="200"></a>
 
