@@ -10,7 +10,7 @@ categories:
 tags:
   - Manual
 last_modified_at: 2020-10-31T08:06:00-05:00
-published: false
+published: true
 ---
 
 ## Install Python3
