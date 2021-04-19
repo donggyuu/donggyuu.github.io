@@ -12,12 +12,6 @@ tags:
 last_modified_at: 2020-01-04T08:06:00-05:00
 published: false
 ---
-<script src="https://ads-partners.coupang.com/g.js"></script>
-<script>
-	new PartnersCoupang.G({ id:368772 });
-</script>  
-<br>
-
 일본에서 개발자로서 커리어를 시작한지 햇수로는 3년차를 맞이하게 되었다. 일본에서라기보다는 개발 신입으로 느꼈던 점에 더 가까울 듯 보이지만, 중간 점검을 하고 다시금 겸손하게 시작하는 계기가 되었으면 좋겠다.
 
 ## 소규모 팀 배정으로 얇고 넓은 개발의 시작

@@ -12,11 +12,6 @@ tags:
 last_modified_at: 2021-01-04T08:06:00-05:00
 published: false
 ---
-<script src="https://ads-partners.coupang.com/g.js"></script>
-<script>
-	new PartnersCoupang.G({ id:368772 });
-</script>  
-<br>
 
 ## 코딩에 대한 현재의 분의기  
 시대가 너무 빠르게 바뀌고 있음을 느낍니다.   

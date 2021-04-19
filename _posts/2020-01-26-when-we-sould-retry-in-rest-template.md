@@ -11,7 +11,6 @@ tags:
   - Basic
 last_modified_at: 2020-01-26T08:06:00-05:00
 ---
-
 # Overview
 API request using RestTemplate in Spring is not always successful for various exceptions. So we can consider "retrying request" in some exceptions. 
 

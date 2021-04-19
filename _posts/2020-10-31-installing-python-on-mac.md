@@ -12,7 +12,6 @@ tags:
 last_modified_at: 2020-10-31T08:06:00-05:00
 published: false
 ---
-**Video : https://youtu.be/cvsjSedzvB4**
 
 ## Install Python3
 ```bash
