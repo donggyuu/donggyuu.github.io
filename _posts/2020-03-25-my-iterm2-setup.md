@@ -10,6 +10,7 @@ categories:
 tags:
   - Manual
 last_modified_at: 2020-03-25T08:06:00-05:00
+published: false
 ---
 <!--
 TODO : 내용 보충. 왜 이러한 세팅이 필요한지. 추가 세팅도 추가.

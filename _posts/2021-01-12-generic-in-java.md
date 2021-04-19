@@ -12,14 +12,9 @@ tags:
 last_modified_at: 2021-01-12T08:06:00-05:00
 published: true
 ---
-<script src="https://ads-partners.coupang.com/g.js"></script>
-<script>
-	new PartnersCoupang.G({ id:368772 });
-</script>  
-<br>
 
-## Generic?
-일단 사전적 정의부터 살펴보겠습니다.  
+## 제네릭이란?  
+사전적 정의부터 살펴보겠습니다.  
 - from 생활코딩  
 제네릭(Generic)은 클래스 내부에서 사용할 데이터 타입을 외부에서 지정하는 기법을 의미한다.
 - from Oracle Javadoc  
@@ -33,7 +28,7 @@ Generics add stability to your code by making more of your bugs detectable at co
 - Generic 사용후   
 컬렉션이 담을 수 있는 파일을 컴파일러에게 알려주기 때문에 컴파일러가 알아서 형변환 코드를 추가하여 **더 안전하고 명확**해 진다.  
 
-## 예시  
+## 예제코드    
 자바5 이전에는 Generic이 없었고 객체를 담기 위해서 raw type을 사용했습니다.  
 (Collection interface를 예로)
 
@@ -66,8 +61,5 @@ private final Collection<Stamp> stamps = ...;
 ```
 Generic으로 처음부터 Stamp타입만 받도록 명시를 하면 추후 문제가 없습니다.  
 
-**참고**  
-yaboong님의 블로그  
-https://yaboong.github.io/java/2019/01/19/java-generics-1/  
-<이팩티브 자바>   
-https://coupa.ng/bPqc7H
+**레퍼런스**   
+<Effective Java 3E>   

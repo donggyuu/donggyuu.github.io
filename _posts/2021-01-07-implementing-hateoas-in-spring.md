@@ -13,12 +13,6 @@ tags:
 last_modified_at: 2021-01-07T08:06:00-05:00
 published: true
 ---
-<script src="https://ads-partners.coupang.com/g.js"></script>
-<script>
-	new PartnersCoupang.G({ id:368772 });
-</script>  
-<br>
-
 ## 리차드슨의 성숙도 모델과 HATEOAS
 REST는 어떠한 기술 표준이 아닌, HTTP에 대한 제약 사항이라고 볼 수 있습니다. 따라서 REST API가 어느정도의 REST원칙을 준수하는지는 저마다 다릅니다.   
 

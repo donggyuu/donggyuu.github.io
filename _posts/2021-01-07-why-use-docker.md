@@ -12,11 +12,6 @@ tags:
 last_modified_at: 2021-01-04T08:06:00-05:00
 published: true
 ---
-<script src="https://ads-partners.coupang.com/g.js"></script>
-<script>
-	new PartnersCoupang.G({ id:368772 });
-</script>  
-<br>
 
 ## docker를 사용하는 이유
 인터넷에서 프로그램을 다운받아 설치하는 경우, 서버, 패키지 버전, OS 등에 따라 설치 과정 중 많은 오류가 발생할 수 있습니다. 분명 블로그를 보고 MySQL이나 Redis 등을 설치하려 했는데 잘 되지 않는 경우가 많죠.   

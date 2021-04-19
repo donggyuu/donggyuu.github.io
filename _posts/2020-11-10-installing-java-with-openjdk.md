@@ -10,6 +10,7 @@ categories:
 tags:
   - Manual
 last_modified_at: 2020-11-10T08:06:00-05:00
+published: false
 ---
 **Video : https://youtu.be/pzW3JUDyvHU**
 
