@@ -123,7 +123,6 @@ author:
       # url: "https://twitter.com/"
     - label: "NAVER"
       icon: "fas fa-fw fa-link"
-      url: "https://blog.naver.com/donggyu_rhee"
       # url: "https://www.youtube.com/channel/UC3nBtwH0D_AEQZP56fRO55g"
     - label: "Facebook"
       icon: "fab fa-fw fa-facebook-square"
