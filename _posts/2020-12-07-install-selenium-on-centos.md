@@ -8,8 +8,7 @@ header:
 categories:
   - Development 
 tags:
-  - Development_Project
-  - Development_Manual
+  - Development-Skills
 last_modified_at: 2020-12-07T08:06:00-05:00
 published: true
 ---
