@@ -17,7 +17,7 @@ OK 2. 이미지 수정 : teaser.png
 OK 3. indentaion수정 : --name : set name 부분
 -->
 
-# Pull Nginx Image
+# 1.Pull Nginx Image
 ```bash
 # pull latest image
 sudo docker pull nginx:latest
@@ -28,9 +28,8 @@ docker images
 REPOSITORY                  TAG                 IMAGE ID            CREATED             SIZE
 docker.io/nginx             latest              6678c7c2e56c        a moment ago        127 MB
 ```
-<br>
 
-# Make Initial page
+# 2.Make Initial page
 ```bash
 # directory for volume
 mkdir -p /home/mint/share/nginx/html
@@ -42,9 +41,8 @@ vi index.html
 # ----------------
 <p> hello Nginx </p>
 ```
-<br>
 
-# Run Docker
+# 3.Run Docker
 ```bash
 # run Docker
 docker run --name nginx_test -v /home/mint/share/nginx/html:/usr/share/nginx/html:ro -d -p 8080:80  nginx
@@ -62,19 +60,10 @@ a802b7601ad1        nginx               "nginx -g 'daemon ..."   2 seconds ago  
 -p : set port(8080:local, 80:nginx container)  
 
 
-<br>
-
-
-# Confirmation
+# 4.Confirmation
 ```bash
 # access to below from Browsers
 http://xx.xxx.xxx.xxx:8080/
 # ----------------
 hello Nginx
-```
-<br>
-
-# ※ Errors - 403 Forbidden
-```bash
-# 作成中
 ```

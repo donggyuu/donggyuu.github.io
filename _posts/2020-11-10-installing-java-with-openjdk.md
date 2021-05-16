@@ -13,7 +13,7 @@ last_modified_at: 2020-11-10T08:06:00-05:00
 published: true
 ---
 
-## Why use OpenJDK for Java?
+## OpenJDK vs Oracle JDK  
 There are two options for installing Java on your Mac.  
 - Oracle JDK
 - OpenJDK  
@@ -21,12 +21,12 @@ There are two options for installing Java on your Mac.
 Either is good choice only for your local environment but for other cases, OpenJDK can be better because it free. Oracle said "Non-General Purpose Computing" can be chared
 
 
-## Download OpenJDK
+## 1.Download
 Go to http://jdk.java.net/archive/ and download version for Mac what you want. I got version "12.0.2".  
 ![OpenJDK_site](/assets/images/java_with_openjdk.png)
 
 
-## Installation
+## 2.Installation
 ```bash
 # go to path for OpenJDK
 # usually in Downloads

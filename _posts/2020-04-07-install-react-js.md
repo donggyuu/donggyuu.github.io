@@ -36,7 +36,6 @@ Please create pull requests instead of asking for help on Homebrew's GitHub,
 Discourse, Twitter or IRC. You are responsible for resolving any issues you
 experience while you are running this old version.
 ```
-<br>
 
 # Create React App
 Had better to use "npx" instead of "npm -g" based on official documents.  
@@ -63,8 +62,9 @@ npm start
 Initial page will display automatically
 ```
 
-# Errors
-**errors_1**  
+# Handling Errors
+
+## errors_case1   
 If "Permission denied" error occur when start npm, make sure that react-scripts binary is executable.
 ```bash
 # ERROR - Permission denied 
@@ -84,15 +84,14 @@ npm ERR! A complete log of this run can be found in:
 npm ERR!     /Users/donggyu/.npm/_logs/2020-04-07T11_26_37_733Z-debug.log
 ```
 
-Solution - please make scripts as executable
+**Solution**  
+please make scripts as executable
 ```bash
 # Solution
 chmod +x node_modules/.bin/react-scripts
 ```
 
-<br>
-
-**errors_2**  
+## errors_case2    
 Below errors can be occur when you clone your React project from git. It because there were no "node_modules" for npm.   
 ```bash
 $ npm start
@@ -116,7 +115,8 @@ npm ERR! A complete log of this run can be found in:
 npm ERR!     /Users/don/.npm/_logs/2020-12-10T10_14_09_297Z-debug.log
 ```
 
-Solution - please install npm
+**Solution**  
+please install npm
 ```bash
 # Solution
 npm install
