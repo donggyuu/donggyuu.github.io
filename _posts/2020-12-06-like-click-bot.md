@@ -8,7 +8,8 @@ header:
 categories:
   - Development 
 tags:
-  - Development-Skills
+  - Python
+  - Selenium
 last_modified_at: 2020-12-06T08:06:00-05:00
 ---
 

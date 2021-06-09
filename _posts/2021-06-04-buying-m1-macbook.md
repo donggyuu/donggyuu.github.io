@@ -1,5 +1,5 @@
 ---
-title: "CentOS에서 Selenium설정하고 실행하기"
+title: "쿠팡 저품질 피하기"
 excerpt: "CentOS 7에서 Selenium 설정 및 발생 가능 에러 정리"
 toc: true
 toc_sticky: true
@@ -7,12 +7,18 @@ header:
   teaser: /assets/images/install-selenium-on-centos.png
 categories:
   - Development 
-tags:  
-  - Python
-  - Selenium
+tags:
+  - Development-Skills
 last_modified_at: 2020-12-07T08:06:00-05:00
-published: true
+published: false
 ---
+
+## m1 
+
+
+
+
+
 
 ## 개요
 [이전 포스팅](https://donggyuu.github.io/development/like-click-bot)에서는 Local에서 셀레니움을 이용해 간단한 봇을 만들어보았습니다. 봇을 서버에 올려 정해진 시간에 동작하도록 하면 수동으로 실행하는 것보다 간단하겠죠.   

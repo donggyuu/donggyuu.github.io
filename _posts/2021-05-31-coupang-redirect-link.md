@@ -1,5 +1,5 @@
 ---
-title: "CentOS에서 Selenium설정하고 실행하기"
+title: "쿠팡 저품질 피하기"
 excerpt: "CentOS 7에서 Selenium 설정 및 발생 가능 에러 정리"
 toc: true
 toc_sticky: true
@@ -7,12 +7,61 @@ header:
   teaser: /assets/images/install-selenium-on-centos.png
 categories:
   - Development 
-tags:  
-  - Python
-  - Selenium
+tags:
+  - Development-Skills
 last_modified_at: 2020-12-07T08:06:00-05:00
-published: true
+published: false
 ---
+
+# 제목 : 쿠팡 파트너스 저품질 누락 해결 프로그램
+
+예전에 키보드 리뷰글이 자꾸 검색누락되는 일이 있었다.
+https://blog.naver.com/donggyu_rhee/222151430934
+
+알고보니 쿠팡 파트너스때문으로,
+쿠팡 링크를 삭제하니 다시 노출이 되기 시작했다.
+
+해결방법으로 단축URL 변환 사이트가 있었는데,
+사이트 폐쇄도 지맘대로고 해서 하나 만들어보았다.
+
+현재는 아래 글에 적용된 상태로
+https://blog.naver.com/donggyu_rhee/222202900755
+
+검색하면 여전히 상위권에 노출되어 아직은 괜찮은듯하다.
+
+
+## url변환 프로그램 신청법
+**신청
+이것때문에 도메인 구입한 것이 아깝기도해서
+쪽지나 댓글로 본인의 쿠팡파트너스 링크 보내주시면
+변환된 URL을 만들어 보내드립니다.
+(아마존에서 빌린 서버비용으로,트래픽의 1/10정도는 받겠습니다.)
+
+같은 도메인이 너무 많으면 블로그봇이 싫어한다는 소문이 있어서
+적당한 인원수별로 세부 도메인도 다르게할 예정이지만
+신청분이 없다면 괜한 김칫국인 것으로...
+
+
+## 사용법
+1. 이미지를 하나 준비합니다.
+난 쿠팡 이미지 스샷 뜸
+
+2. url에 발급받은 url넣고 링크 담
+
+3. 잘 되나 확인
+
+
+## 주의사항
+네이버와 쿠팡에는 뛰어난 개발자분들이 많기 떄문에
+본 링크도 막힐 수 있습니다.
+그럴 때에는 본 글에 공지하도록 하겠습니다.
+
+
+
+
+
+
+
 
 ## 개요
 [이전 포스팅](https://donggyuu.github.io/development/like-click-bot)에서는 Local에서 셀레니움을 이용해 간단한 봇을 만들어보았습니다. 봇을 서버에 올려 정해진 시간에 동작하도록 하면 수동으로 실행하는 것보다 간단하겠죠.   
