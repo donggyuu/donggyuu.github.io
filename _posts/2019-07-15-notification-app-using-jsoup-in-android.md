@@ -9,7 +9,6 @@ categories:
   - Development 
 tags:
   - Java
-  - Android
 last_modified_at: 2019-07-15T08:06:00-05:00
 published: true
 ---
