@@ -12,7 +12,7 @@ tags:
 last_modified_at: 2021-01-07T08:06:00-05:00
 published: true
 ---
-## HATEOAS?
+## 성숙도 모델의 HATEOAS 개념   
 REST는 어떠한 기술 표준이 아닌, HTTP에 대한 제약 사항. 따라서 REST API가 어느정도의 REST원칙을 준수하는지는 저마다 다르다.   
 
 때문에 리차드슨은 성숙도 모델을 통해 API가 어느정도 REST원칙을 지키고 있는지 등급으로 나타내고자 했다.  
@@ -24,13 +24,13 @@ HTTP의 전송 기능으로서의 특성(HTTP동사,상태 코드 등)을 이용
 - **레벨3 : 하이퍼미디어컨트롤**   
 서비스가 제공하는 자원에 접근하기 위해 아무런 사전지식도 요구하지 않는 수준의 API를 구현
 
-성숙도 모델의 레벨3에 해당하는 개념이 HATEOAS입니다. 클라이언트가 어떤 요청을 할때, 해당 요청과 함께 해당 요청에 관련된 URI도 같이 응답해 주는 것을 말합니다. 
+성숙도 모델의 레벨3에 해당하는 개념이 HATEOAS이다. 클라이언트가 어떤 요청을 할때, 해당 요청과 함께 해당 요청에 관련된 URI도 같이 응답해 주는 것을 말한다. 
 
 요약하면  
 유저가 POST요청을 할때 그 응답으로 조회, 수정, 삭제하는 엔드포인트도 함께 보내 유저가 API문서를 읽지 않고도 POST이외의 요청을 알 수 있도록 하는 것을 말한다.
 
 
-## Spring boot에 HATEOAS 도입
+## Spring Boot에 HATEOAS 도입
 간단한 api 작성을 통해 spring에서 hateoas를 도입해 보겠다.  
 [전체 코드는 여기에서 확인](https://github.com/donggyuu/spring-basic/blob/master/restapi/src/main/java/com/example/restapi/controller/BoardController.java#L57)
 
