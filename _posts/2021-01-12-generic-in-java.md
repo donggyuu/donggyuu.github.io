@@ -8,7 +8,7 @@ header:
 categories:
   - Development 
 tags:
-  - Java
+  - Server
 last_modified_at: 2021-01-12T08:06:00-05:00
 published: true
 ---
@@ -58,5 +58,3 @@ Coin타입의 객체를 저장했기때문에 꺼내어 사용할 때도 Coin타
 private final Collection<Stamp> stamps = ...;
 ```
 Generic으로 처음부터 Stamp타입만 받도록 명시를 하면 추후 문제가 없다.  
-
-** **참고:<Effective Java 3E>**   
