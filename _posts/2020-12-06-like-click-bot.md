@@ -12,8 +12,6 @@ tags:
 last_modified_at: 2020-12-06T08:06:00-05:00
 ---
 
-[전체 소스코드](https://github.com/donggyuu/like-click-bot)  
-
 # 다루는 내용  
 자동으로 이웃블로그의 포스팅에 좋아요를 눌러주는 봇을 만들어보기로 하였다.  
 <br>
