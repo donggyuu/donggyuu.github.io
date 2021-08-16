@@ -15,7 +15,9 @@ published: true
 
 # 다루는 내용  
 [이전 포스팅](https://donggyuu.github.io/development/like-click-bot)에서는 Local에서 셀레니움을 이용해 간단한 봇을 만들어보았다. 봇을 서버에 올려 정해진 시간에 동작하도록 하면 수동으로 실행하는 것보다 간단해진다.   
-본 글에서는 CentOS7서버에서 셀레니움 봇을 동작하도록 하는 설정을 다룬다.
+본 글에서는 CentOS7서버에서 셀레니움 봇을 동작하도록 하는 설정을 다룬다.  
+
+<br>
 
 # 설정  
 
@@ -105,6 +107,8 @@ total 16332
 ```bash
 python3 like-click-bot.py
 ```
+
+<br>
 
 # 에러 핸들링  
 진행하다보면 2가지 에러가 나올 수 있다. 아래의 조치를 취한 후 재실행해 본다.  

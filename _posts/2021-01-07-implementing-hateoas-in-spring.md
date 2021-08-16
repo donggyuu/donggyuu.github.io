@@ -34,7 +34,7 @@ HTTP의 전송 기능으로서의 특성(HTTP동사,상태 코드 등)을 이용
 간단한 api 작성을 통해 spring에서 hateoas를 도입해 보겠다.  
 [전체 코드는 여기에서 확인](https://github.com/donggyuu/spring-basic/blob/master/restapi/src/main/java/com/example/restapi/controller/BoardController.java#L57)
 
-### Dependency설정
+### 의존성 설정
 maven을 사용할 경우 아래와 같이 의존성 추가한다.
 ```xml
 <dependency>
@@ -43,7 +43,7 @@ maven을 사용할 경우 아래와 같이 의존성 추가한다.
 </dependency>
 ```
 
-### Code작성
+### 코드 작성
 Controller에서 응답을 반환할때 hateoas 설정을 추가한다.   
 
 ```java
@@ -66,7 +66,7 @@ createBoard는 controller안의 method로, 클라이언트에서 게시판 생�
 
 게시판을 생성하려고 요청을 보내는 클라이언트가 게시판을 조회(get), 삭제(delete), 수정(edit)하는 URI도 알고 있다면 API사용 문서가 없어도 추후 생성 이외의 다른 기능을 이용할 수 있을 것이다. 따라서 다른 URI도 같이 응답을 돌려준다.
 
-### Test
+### 테스트
 PostMan에서 확인해보면,  
 ![spring-hateoas-2](/assets/images/spring-hateoas-2.png)
 

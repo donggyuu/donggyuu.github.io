@@ -25,6 +25,8 @@ last_modified_at: 2020-12-06T08:06:00-05:00
 
 또한 Mac환경에서 동작확인을 하였다.
 
+<br>
+
 # 사용 방법
 전체 코드를 [여기](https://github.com/donggyuu/like-click-bot)서 클론한다.  
 
@@ -48,6 +50,7 @@ $ python like-click-bot.py
 
 간혹 웹드라이버의 버전이 맞지 않아 실행되지 않을 수도 있다. 본 스크립트는 크롬 브라우저 87.0.4280.88 버전에 맞는 웹드라이버를 사용하고 있다. 버전이 맞지 않으면 [여기](https://sites.google.com/a/chromium.org/chromedriver/downloads)에서 올바른 버전을 받으면 된다.  
 
+<br>
 
 # 코드 설명 
 기본적인 Selenium이기때문에 크게 어려운 부분은 없지만 몇가지 주의점이 있다.

@@ -20,13 +20,16 @@ There are two options for installing Java on your Mac.
 
 Either is good choice only for your local environment but for other cases, OpenJDK can be better because it free. Oracle said "Non-General Purpose Computing" can be chared
 
+<br>
 
-## 1.Download
+## Setup
+
+### Download
 Go to http://jdk.java.net/archive/ and download version for Mac what you want. I got version "12.0.2".  
 ![OpenJDK_site](/assets/images/java_with_openjdk.png)
 
 
-## 2.Installation
+### Installation
 ```bash
 # go to path for OpenJDK
 # usually in Downloads
