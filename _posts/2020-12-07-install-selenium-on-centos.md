@@ -25,7 +25,7 @@ published: true
      data-ad-client="ca-pub-3803765505787724"
      data-ad-slot="4883898076"
      data-ad-format="horizontal"
-     data-full-width-responsive="true"></ins>
+     data-full-width-responsive="false"></ins>
 <script>
      (adsbygoogle = window.adsbygoogle || []).push({});
 </script>
