@@ -19,16 +19,16 @@ published: true
 
 <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-3803765505787724"
      crossorigin="anonymous"></script>
+<!-- develop_blog_infeed -->
 <ins class="adsbygoogle"
      style="display:block"
-     data-ad-format="autorelaxed"
      data-ad-client="ca-pub-3803765505787724"
-     data-ad-slot="5762737613"></ins>
+     data-ad-slot="4883898076"
+     data-ad-format="auto"
+     data-full-width-responsive="true"></ins>
 <script>
      (adsbygoogle = window.adsbygoogle || []).push({});
 </script>
-
-<br>
 
 # 설정  
 

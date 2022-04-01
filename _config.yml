@@ -293,7 +293,7 @@ defaults:
       share: true
       related: true
       # ads for side bar
-      toc_ads: true
+      # toc_ads: true
       toc_sticky: true
 
   # _pages
