@@ -24,7 +24,7 @@ published: true
      style="display:block"
      data-ad-client="ca-pub-3803765505787724"
      data-ad-slot="4883898076"
-     data-ad-format="auto"
+     data-ad-format="horizontal"
      data-full-width-responsive="true"></ins>
 <script>
      (adsbygoogle = window.adsbygoogle || []).push({});
