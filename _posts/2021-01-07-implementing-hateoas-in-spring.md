@@ -8,9 +8,9 @@ header:
 categories:
   - Development 
 tags:
-  - Server
+  - Backend
 last_modified_at: 2021-01-07T08:06:00-05:00
-published: false
+published: true
 ---
 ## 성숙도 모델의 HATEOAS 개념   
 REST는 어떠한 기술 표준이 아닌, HTTP에 대한 제약 사항. 따라서 REST API가 어느정도의 REST원칙을 준수하는지는 저마다 다르다.   
