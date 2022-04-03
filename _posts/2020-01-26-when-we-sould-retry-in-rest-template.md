@@ -21,8 +21,6 @@ API request using RestTemplate in Spring is not always successful for various ex
 | HTTPClientErrorException | O/X |
 | UnknownHTTPStatusCodeException | X |  
 
-<br>
-
 
 # @retryable for Retry
 Can use @retryable for retry in Spring. It is ok to code oneself by Java but using annotation is more clear and easy to read.
@@ -35,8 +33,18 @@ public void updateDB() throws ResourceAccessException, HTTPServerErrorException 
 ```   
 [Spring-Retryでリトライ処理の実装](https://qiita.com/SotaOishi/items/f19d50794e3fabad5e95)
 
-
-<br>
+<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-3803765505787724"
+     crossorigin="anonymous"></script>
+<!-- develop_blog_infeed -->
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-3803765505787724"
+     data-ad-slot="4883898076"
+     data-ad-format="horizontal"
+     data-full-width-responsive="false"></ins>
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # Exception List in RestTemplate
 
@@ -55,7 +63,18 @@ Have to consider belows when retry
 [RestTemplateが投げる例外クラスまとめ](https://qiita.com/shotana/items/88b120432e694c9b63f6)
 
 
-<br>
+<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-3803765505787724"
+     crossorigin="anonymous"></script>
+<!-- develop_blog_infeed -->
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-3803765505787724"
+     data-ad-slot="4883898076"
+     data-ad-format="horizontal"
+     data-full-width-responsive="false"></ins>
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # Retry in each Exception
 
@@ -122,3 +141,16 @@ Except HTTP 400, other 4xx errors are hardly happen. HTTP 400 itself will not ha
 ## UnknownHTTPStatusCodeException
 
 Had better NOT retry when UnknownHTTPStatusCodeException occur for it thrown when an unknown (or custom) HTTP status code is received. Have to check the cause of this exception before you try to retry.
+
+<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-3803765505787724"
+     crossorigin="anonymous"></script>
+<!-- develop_blog_infeed -->
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-3803765505787724"
+     data-ad-slot="4883898076"
+     data-ad-format="horizontal"
+     data-full-width-responsive="false"></ins>
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>

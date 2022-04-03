@@ -15,6 +15,20 @@ published: true
 
 ## Summary
 Have troubled in usual maintenance with short notice in my favorite game. This application get notice information from game site in every 5 min, then display it on List. Mainly use **Jsoup** and **AsyncTask** class.
+
+<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-3803765505787724"
+     crossorigin="anonymous"></script>
+<!-- develop_blog_infeed -->
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-3803765505787724"
+     data-ad-slot="4883898076"
+     data-ad-format="horizontal"
+     data-full-width-responsive="false"></ins>
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
+
   
 ## UI Design
 Show List of notices which will be updated every 5 min. Move to game-notice page if touch the each list. Push alarm if there were any updates. If not, nothing to be updated.  
@@ -49,6 +63,19 @@ Parsing by Jsoup occur via internet connections so have to use AsyncTask. We nee
 In **doInBackground**, write code Asynchronized with MainActivity class. I write getNoticeTitles method used Jsoup for getting notice titles.   
 
 **onPostExecute**, write code which occurred after doInBackground was executed. I write showNoticeTitleOnScreen and this method get notice title then show it on screen.  
+
+<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-3803765505787724"
+     crossorigin="anonymous"></script>
+<!-- develop_blog_infeed -->
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-3803765505787724"
+     data-ad-slot="4883898076"
+     data-ad-format="horizontal"
+     data-full-width-responsive="false"></ins>
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 
 ## Releasing App

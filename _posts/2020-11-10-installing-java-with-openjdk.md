@@ -20,7 +20,18 @@ There are two options for installing Java on your Mac.
 
 Either is good choice only for your local environment but for other cases, OpenJDK can be better because it free. Oracle said "Non-General Purpose Computing" can be chared
 
-<br>
+<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-3803765505787724"
+     crossorigin="anonymous"></script>
+<!-- develop_blog_infeed -->
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-3803765505787724"
+     data-ad-slot="4883898076"
+     data-ad-format="horizontal"
+     data-full-width-responsive="false"></ins>
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 ## Setup
 
@@ -63,3 +74,16 @@ openjdk version "12.0.2" 2019-07-16
 OpenJDK Runtime Environment (build 12.0.2+10)
 OpenJDK 64-Bit Server VM (build 12.0.2+10, mixed mode, sharing)
 ```
+
+<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-3803765505787724"
+     crossorigin="anonymous"></script>
+<!-- develop_blog_infeed -->
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-3803765505787724"
+     data-ad-slot="4883898076"
+     data-ad-format="horizontal"
+     data-full-width-responsive="false"></ins>
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>

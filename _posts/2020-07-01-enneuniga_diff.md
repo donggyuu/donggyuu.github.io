@@ -40,7 +40,18 @@ published: true
 [ [방탄소년단/BTS ] 대환장 뮤뱅 대기실 인터뷰 (with. 태형이 놀리는 멤버들)](https://www.youtube.com/watch?v=rbbATT47jA4)  
 のスクリプトを見ながら会話の練習をします。
 
-<br>
+<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-3803765505787724"
+     crossorigin="anonymous"></script>
+<!-- develop_blog_infeed -->
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-3803765505787724"
+     data-ad-slot="4883898076"
+     data-ad-format="horizontal"
+     data-full-width-responsive="false"></ins>
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 
 # 単語が母音で終わると"~는/가"
@@ -55,7 +66,6 @@ published: true
 - 아베 총리는(安倍総理は)
 - 아베 총리가(安倍総理が)
 
-<br>
 
 # 単語が母音で終わらないと"~은/이"
 "母音で終わらない = パッチムで終わる"の意味になるので、パッチムがある場合に"~은/이"を使います。  
@@ -64,7 +74,18 @@ published: true
 - 일본이(日本が)
 - 서울이(ソウルは)
 
-<br>
+<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-3803765505787724"
+     crossorigin="anonymous"></script>
+<!-- develop_blog_infeed -->
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-3803765505787724"
+     data-ad-slot="4883898076"
+     data-ad-format="horizontal"
+     data-full-width-responsive="false"></ins>
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
   
 # 例文 - ~은/는(は), ~입니다(です), ~입니까?(ですか)
 [ 방탄소년단/BTS ] 대환장 뮤뱅 대기실 인터뷰 (with. 태형이 놀리는 멤버들)  

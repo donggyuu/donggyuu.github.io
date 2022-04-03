@@ -38,6 +38,20 @@ Discourse, Twitter or IRC. You are responsible for resolving any issues you
 experience while you are running this old version.
 ```
 
+<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-3803765505787724"
+     crossorigin="anonymous"></script>
+<!-- develop_blog_infeed -->
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-3803765505787724"
+     data-ad-slot="4883898076"
+     data-ad-format="horizontal"
+     data-full-width-responsive="false"></ins>
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
+
+
 # Create React App
 Had better to use "npx" instead of "npm -g" based on official documents.  
 [https://create-react-app.dev/docs/getting-started/](https://create-react-app.dev/docs/getting-started/)
@@ -62,6 +76,19 @@ npm start
 # ------------------
 Initial page will display automatically
 ```
+
+<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-3803765505787724"
+     crossorigin="anonymous"></script>
+<!-- develop_blog_infeed -->
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-3803765505787724"
+     data-ad-slot="4883898076"
+     data-ad-format="horizontal"
+     data-full-width-responsive="false"></ins>
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 # Handling Errors
 

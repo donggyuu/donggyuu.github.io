@@ -29,6 +29,19 @@ HTTP의 전송 기능으로서의 특성(HTTP동사,상태 코드 등)을 이용
 요약하면  
 유저가 POST요청을 할때 그 응답으로 조회, 수정, 삭제하는 엔드포인트도 함께 보내 유저가 API문서를 읽지 않고도 POST이외의 요청을 알 수 있도록 하는 것을 말한다.
 
+<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-3803765505787724"
+     crossorigin="anonymous"></script>
+<!-- develop_blog_infeed -->
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-3803765505787724"
+     data-ad-slot="4883898076"
+     data-ad-format="horizontal"
+     data-full-width-responsive="false"></ins>
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
+
 
 ## Spring Boot에 HATEOAS 도입
 간단한 api 작성을 통해 spring에서 hateoas를 도입해 보겠다.  
@@ -73,3 +86,16 @@ PostMan에서 확인해보면,
 위 그림에서는 POST로 userName과 contnet를 게시판에 삽입하는 요청을 보낸다.  
 
 아래 그림에서는 게시판의 4번째 요소로 추가되었다는 응답을 확인할 수 있다. 아울러 hateoas도 추가하였기 때문에 조회, 삭제, 수정을 위한 URI가 "boards/4"임도 같이 응답해 주었다.  
+
+<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-3803765505787724"
+     crossorigin="anonymous"></script>
+<!-- develop_blog_infeed -->
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-3803765505787724"
+     data-ad-slot="4883898076"
+     data-ad-format="horizontal"
+     data-full-width-responsive="false"></ins>
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
