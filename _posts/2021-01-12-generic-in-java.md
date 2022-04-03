@@ -10,7 +10,7 @@ categories:
 tags:
   - Backend
 last_modified_at: 2021-01-12T08:06:00-05:00
-published: true
+published: false
 ---
 
 ## Generic 개념    
