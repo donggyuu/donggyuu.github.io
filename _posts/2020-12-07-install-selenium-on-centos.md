@@ -8,7 +8,7 @@ header:
 categories:
   - Development 
 tags:  
-  - Backend
+  - Development
 last_modified_at: 2020-12-07T08:06:00-05:00
 published: true
 ---
@@ -118,19 +118,6 @@ total 16332
 ```bash
 python3 like-click-bot.py
 ```
-
-<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-3803765505787724"
-     crossorigin="anonymous"></script>
-<!-- develop_blog_infeed -->
-<ins class="adsbygoogle"
-     style="display:block"
-     data-ad-client="ca-pub-3803765505787724"
-     data-ad-slot="4883898076"
-     data-ad-format="horizontal"
-     data-full-width-responsive="false"></ins>
-<script>
-     (adsbygoogle = window.adsbygoogle || []).push({});
-</script>
 
 # 에러 핸들링  
 진행하다보면 2가지 에러가 나올 수 있다. 아래의 조치를 취한 후 재실행해 본다.  

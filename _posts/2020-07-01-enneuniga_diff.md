@@ -8,7 +8,7 @@ header:
 categories:
   - Japanese
 tags:
-  - Grammar
+  - Japanese
 last_modified_at: 2020-07-01T08:06:00-05:00
 published: true
 ---
@@ -74,18 +74,6 @@ published: true
 - 일본이(日本が)
 - 서울이(ソウルは)
 
-<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-3803765505787724"
-     crossorigin="anonymous"></script>
-<!-- develop_blog_infeed -->
-<ins class="adsbygoogle"
-     style="display:block"
-     data-ad-client="ca-pub-3803765505787724"
-     data-ad-slot="4883898076"
-     data-ad-format="horizontal"
-     data-full-width-responsive="false"></ins>
-<script>
-     (adsbygoogle = window.adsbygoogle || []).push({});
-</script>
   
 # 例文 - ~은/는(は), ~입니다(です), ~입니까?(ですか)
 [ 방탄소년단/BTS ] 대환장 뮤뱅 대기실 인터뷰 (with. 태형이 놀리는 멤버들)  

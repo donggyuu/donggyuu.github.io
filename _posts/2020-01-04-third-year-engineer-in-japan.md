@@ -8,9 +8,9 @@ header:
 categories:
   - Development
 tags:
-  - Essay
+  - Development
 last_modified_at: 2020-01-04T08:06:00-05:00
-published: false
+published: true
 ---
 일본에서 개발자로서 커리어를 시작한지 햇수로는 3년차를 맞이하게 되었다. 일본에서라기보다는 개발 신입으로 느꼈던 점에 더 가까울 듯 보이지만, 중간 점검을 하고 다시금 겸손하게 시작하는 계기가 되었으면 좋겠다.
 
@@ -31,6 +31,19 @@ published: false
  문제는, 한 회사의 시스템은 다른 회사에서는 전혀 필요없게 된다는 것이다. 따라서 야근을 하면 일을 열심히 했다는 사실에 안도감을 얻을지 몰라도 실력 향상에는 그다지 도움이 되지 않는다. 최대한 주어진 시간 내에 일을 끝내고 퇴근 후 평소 관심있던 프로젝트에 시간을 좀더 투자해야 겠다.  
  ![third-year_coder_1](/assets/images/third-year_coder_1.jpg)  
 
+
+<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-3803765505787724"
+     crossorigin="anonymous"></script>
+<!-- develop_blog_infeed -->
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-3803765505787724"
+     data-ad-slot="4883898076"
+     data-ad-format="horizontal"
+     data-full-width-responsive="false"></ins>
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
 
 
 ## 모두에게 친절히 알려주되 무언가를 기대하지 말자

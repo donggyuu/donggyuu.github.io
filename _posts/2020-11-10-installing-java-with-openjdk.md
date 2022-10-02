@@ -8,7 +8,7 @@ header:
 categories:
   - Development
 tags:
-  - Backend
+  - Development
 last_modified_at: 2020-11-10T08:06:00-05:00
 published: true
 ---
@@ -74,16 +74,3 @@ openjdk version "12.0.2" 2019-07-16
 OpenJDK Runtime Environment (build 12.0.2+10)
 OpenJDK 64-Bit Server VM (build 12.0.2+10, mixed mode, sharing)
 ```
-
-<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-3803765505787724"
-     crossorigin="anonymous"></script>
-<!-- develop_blog_infeed -->
-<ins class="adsbygoogle"
-     style="display:block"
-     data-ad-client="ca-pub-3803765505787724"
-     data-ad-slot="4883898076"
-     data-ad-format="horizontal"
-     data-full-width-responsive="false"></ins>
-<script>
-     (adsbygoogle = window.adsbygoogle || []).push({});
-</script>

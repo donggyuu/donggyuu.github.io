@@ -8,7 +8,7 @@ header:
 categories:
   - Development 
 tags:
-  - Backend
+  - Development
 last_modified_at: 2021-01-07T08:06:00-05:00
 published: true
 ---
@@ -86,16 +86,3 @@ PostMan에서 확인해보면,
 위 그림에서는 POST로 userName과 contnet를 게시판에 삽입하는 요청을 보낸다.  
 
 아래 그림에서는 게시판의 4번째 요소로 추가되었다는 응답을 확인할 수 있다. 아울러 hateoas도 추가하였기 때문에 조회, 삭제, 수정을 위한 URI가 "boards/4"임도 같이 응답해 주었다.  
-
-<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-3803765505787724"
-     crossorigin="anonymous"></script>
-<!-- develop_blog_infeed -->
-<ins class="adsbygoogle"
-     style="display:block"
-     data-ad-client="ca-pub-3803765505787724"
-     data-ad-slot="4883898076"
-     data-ad-format="horizontal"
-     data-full-width-responsive="false"></ins>
-<script>
-     (adsbygoogle = window.adsbygoogle || []).push({});
-</script>

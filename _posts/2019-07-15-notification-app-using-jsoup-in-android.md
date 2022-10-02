@@ -8,7 +8,7 @@ header:
 categories:
   - Development 
 tags:
-  - Backend
+  - Development
 last_modified_at: 2019-07-15T08:06:00-05:00
 published: true
 ---
@@ -64,18 +64,6 @@ In **doInBackground**, write code Asynchronized with MainActivity class. I write
 
 **onPostExecute**, write code which occurred after doInBackground was executed. I write showNoticeTitleOnScreen and this method get notice title then show it on screen.  
 
-<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-3803765505787724"
-     crossorigin="anonymous"></script>
-<!-- develop_blog_infeed -->
-<ins class="adsbygoogle"
-     style="display:block"
-     data-ad-client="ca-pub-3803765505787724"
-     data-ad-slot="4883898076"
-     data-ad-format="horizontal"
-     data-full-width-responsive="false"></ins>
-<script>
-     (adsbygoogle = window.adsbygoogle || []).push({});
-</script>
 
 
 ## Releasing App

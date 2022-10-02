@@ -8,7 +8,7 @@ header:
 categories:
   - Development
 tags:
-  - Backend
+  - Development
 last_modified_at: 2020-01-26T08:06:00-05:00
 ---
 # Overview
@@ -63,18 +63,6 @@ Have to consider belows when retry
 [RestTemplateが投げる例外クラスまとめ](https://qiita.com/shotana/items/88b120432e694c9b63f6)
 
 
-<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-3803765505787724"
-     crossorigin="anonymous"></script>
-<!-- develop_blog_infeed -->
-<ins class="adsbygoogle"
-     style="display:block"
-     data-ad-client="ca-pub-3803765505787724"
-     data-ad-slot="4883898076"
-     data-ad-format="horizontal"
-     data-full-width-responsive="false"></ins>
-<script>
-     (adsbygoogle = window.adsbygoogle || []).push({});
-</script>
 
 # Retry in each Exception
 
@@ -140,17 +128,4 @@ Except HTTP 400, other 4xx errors are hardly happen. HTTP 400 itself will not ha
 
 ## UnknownHTTPStatusCodeException
 
-Had better NOT retry when UnknownHTTPStatusCodeException occur for it thrown when an unknown (or custom) HTTP status code is received. Have to check the cause of this exception before you try to retry.
-
-<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-3803765505787724"
-     crossorigin="anonymous"></script>
-<!-- develop_blog_infeed -->
-<ins class="adsbygoogle"
-     style="display:block"
-     data-ad-client="ca-pub-3803765505787724"
-     data-ad-slot="4883898076"
-     data-ad-format="horizontal"
-     data-full-width-responsive="false"></ins>
-<script>
-     (adsbygoogle = window.adsbygoogle || []).push({});
-</script>
+Had better NOT retry when UnknownHTTPStatusCodeException occur for it thrown when an unknown (or custom) HTTP status code is received. Have to check the cause of this exception before you try to retry.  
