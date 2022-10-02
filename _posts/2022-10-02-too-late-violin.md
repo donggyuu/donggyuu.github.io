@@ -34,6 +34,20 @@ published: true
 # うまくいかない可能性もあるが...
 アリエルの話に戻ってみると、小説には陸に行ったアリエルは死ぬことになります。ディズニーのアニメではけ結婚した幸せになる。よくできなくなる可能性も少なくはないので、いつも自分が好き、やりたいことをやれ！とは言えません。でも私は、うまくできなくなる状況を仮定して見て、それが我慢できればやりたいことをするのがいいと思います。周りは何にせよあんたには無理...といつも言ってるので..  
 
+<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-3803765505787724"
+     crossorigin="anonymous"></script>
+<!-- develop_blog_infeed -->
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-3803765505787724"
+     data-ad-slot="4883898076"
+     data-ad-format="horizontal"
+     data-full-width-responsive="false"></ins>
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({});
+</script>
+<br>
+
 
 # [ADD]バイオリンの初心者が知っておくべき３のこと
 ### 最初からバイオリンは買わないこと
